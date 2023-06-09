@@ -1,0 +1,122 @@
+.box {
+    &__default {
+        background: $white;
+        padding: 24px;
+        @include borderRadius(16px);
+        @include boxShadow(0 6px 24px 0 rgba(212, 212, 212, 0.5));
+
+        @include phone {
+            padding: 16px;
+        }
+
+        img {
+            margin: 0 auto;
+            max-width: 322px;
+
+            @include phone {
+                max-height: 184px;
+            }
+        }
+
+        h3 {
+            margin: 24px 0 16px;
+            font-size: 18px;
+
+            @include phone {
+                margin: 16px 0;
+                font-size: 16px;
+            }
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    &__gradient {
+        background: $base-dark;
+        color: white;
+        padding: 24px;
+        @include borderRadius(inherit);
+        height: 100%;
+
+        @include phone {
+            padding: 12px 16px 16px;
+        }
+
+        &--wrap {
+            max-width: 100%;
+            width: 100%;
+            padding: 2px;
+            position: relative;
+            background: rgb(255, 201, 0);
+            background: -moz-linear-gradient(242deg, rgba(255, 201, 0, 1) 0%, rgba(16, 106, 190, 1) 100%);
+            background: -webkit-linear-gradient(242deg, rgba(255, 201, 0, 1) 0%, rgba(16, 106, 190, 1) 100%);
+            background: linear-gradient(242deg, rgba(255, 201, 0, 1) 0%, rgba(16, 106, 190, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffc900", endColorstr="#106abe", GradientType=1);
+            @include borderRadius(16px);
+            overflow: hidden;
+            transition: all .2s ease-in-out;
+            position: relative;
+            height: 198px;
+
+            @include phone {
+                margin-bottom: 16px;
+                height: auto;
+            }
+
+            &:last-child {
+                margin: 0 !important;
+            }
+
+            &:hover {
+                @include boxShadow(0 0 40px 0 rgba(117, 140, 240, 0.39));
+
+                .box__gradient {
+                    &::before {
+                        content: '';
+                        background: url(../images/why-copilot-hover.png) no-repeat bottom right;
+                        position: absolute;
+                        top: -28px;
+                        left: -24px;
+                        width: 432px;
+                        height: 265px;
+                        transition: all .1s ease-in-out;
+                        z-index: 0;
+
+                        @include phone {
+                            display: none;
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+        h3 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 16px;
+
+            @include phone {
+                font-size: 18px;
+            }
+        }
+
+        p {
+            font-size: 16px;
+
+            @include phone {
+                font-size: 14px;
+            }
+        }
+
+        h3,
+        p {
+            position: relative;
+            z-index: 2;
+        }
+
+    }
+}

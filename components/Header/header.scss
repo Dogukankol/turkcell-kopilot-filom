@@ -1,0 +1,119 @@
+@import '/styles/mixins';
+@import '/styles/colors';
+
+.header {
+    padding: 24px 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+
+    @include phone {
+        padding: 20px 0 0;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__language {
+        margin-left: auto;
+
+        .select2 {
+            width: 44px;
+
+            @include phone {
+                width: 34px;
+            }
+
+            &-selection {
+                border: none;
+                background: none;
+
+                &__rendered {
+                    padding: 0!important;
+                    line-height: 20px!important;
+                    font-size: 16px;
+                    color: $white!important;
+                    font-weight: bold;
+
+                    @include phone {
+                        font-size: 14px;
+                    }
+                }
+
+                &__arrow {
+                    height: 20px!important;
+                    top: 0!important;
+                    right: 0!important;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    b {
+                        display: none;
+                    }
+
+                    &::before {
+                        font-family: "turkcell-kopilot-filom";
+                        // @extend %icon-arrow;
+                        font-size: 20px;
+                        color: $white;
+                        position: relative;
+
+                        @include phone {
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                &--single {
+                    height: 20px;
+                }
+            }
+        }
+
+        label {
+            display: none;
+        }
+    }
+
+    &__fast-login {
+        margin-left: 30px;
+
+        @include phone {
+            margin-left: 8px;
+        }
+
+        .btn--fast-login {
+            padding: 11px 27px 12px;
+            @include borderRadius(24px);
+            background: $white;
+            display: block;
+            position: relative;
+
+            @include phone {
+                padding: 8px 15px 7px 16px;
+                @include borderRadius(16px);
+            }
+
+            img {
+                @include phone {
+                    width: 79px;
+                }
+            }
+        }
+    }
+
+    &--dark {
+        padding-bottom: 56px;
+        background: $base-dark;
+
+        @include phone {
+            padding-bottom: 20px;
+        }
+    }
+}
