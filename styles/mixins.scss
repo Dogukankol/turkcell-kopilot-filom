@@ -1,0 +1,19 @@
+$phone-max: 992px;
+
+@mixin phone {
+  @media screen and (max-width: $phone-max) {
+    @content
+  }
+}
+
+@mixin borderRadius($value) {
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
+}
+
+@mixin boxShadow($value) {
+  -webkit-box-shadow: $value;
+  -moz-box-shadow: $value;
+  box-shadow: $value;
+}
