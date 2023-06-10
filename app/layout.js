@@ -1,4 +1,6 @@
-import Header from '@/components/header'
+import {Header} from '@/components'
+import 'swiper/css';
+import '@/assets/css/_styles.scss'
 
 export const metadata = {
   title: 'Create Next App',
