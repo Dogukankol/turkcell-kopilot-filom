@@ -6,7 +6,7 @@ import logoImg from '@/assets/images/logos/logo-2x.png'
 function Logo() {
     return (
         <figure className="logo">
-            <Image alt="Turkcell Logo" src={logoImg} width={48} height={48} />
+            <Image alt="Turkcell Logo" src={logoImg} fill />
             <figcaption>Turkcell Kopilot Filom</figcaption>
         </figure>
     )

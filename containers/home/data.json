@@ -1,0 +1,70 @@
+{
+    "accordions": [
+        {
+            "title": "Turkcell Kopilot Filom nedir? 1",
+            "desc": "Turkcell Kopilot Filom servisinden faydalanmak için Turkcell Kurumsal Satış Yöneticiniz aracılığıyla Turkcell Kopilot Filom cihazı satın alabilir ve cihaz içerisindeki ya da cihaz ile birlikte temin edilecek Turkcell M2M hat ile Turkcell Kopilot Filom tarifesine abone olabilirsiniz. Fiyat bilgilerini https://www.turkcell.com.tr/kurumsal/kurumsal-cozumler/kopilot-filom web sitesinde bulabilirsiniz."
+        },
+        {
+            "title": "Turkcell Kopilot Filom nedir? 2",
+            "desc": "Turkcell Kopilot Filom servisinden faydalanmak için Turkcell Kurumsal Satış Yöneticiniz aracılığıyla Turkcell Kopilot Filom cihazı satın alabilir ve cihaz içerisindeki ya da cihaz ile birlikte temin edilecek Turkcell M2M hat ile Turkcell Kopilot Filom tarifesine abone olabilirsiniz. Fiyat bilgilerini https://www.turkcell.com.tr/kurumsal/kurumsal-cozumler/kopilot-filom web sitesinde bulabilirsiniz."
+        },
+        {
+            "title": "Turkcell Kopilot Filom nedir? 3",
+            "desc": "Turkcell Kopilot Filom servisinden faydalanmak için Turkcell Kurumsal Satış Yöneticiniz aracılığıyla Turkcell Kopilot Filom cihazı satın alabilir ve cihaz içerisindeki ya da cihaz ile birlikte temin edilecek Turkcell M2M hat ile Turkcell Kopilot Filom tarifesine abone olabilirsiniz. Fiyat bilgilerini https://www.turkcell.com.tr/kurumsal/kurumsal-cozumler/kopilot-filom web sitesinde bulabilirsiniz."
+        }
+    ],
+    "howToWorkList": [
+        {
+            "head": "Satın Alın",
+            "desc": "Kurumsal Müşteri Temsilciniz ile görüşerek Kopilot Filom’u satın alın"
+        },
+        {
+            "head": "Cihazınızın Kurulumunu Yaptırın",
+            "desc": "Kopilot Filom cihazlarını aracınıza takın"
+        },
+        {
+            "head": "GSM Numaranızı Eşleştirin",
+            "desc": "kopilotfilom.turkcell.com.tr adresinden tanımlı GSM numaranız ile giriş yapın"
+        },
+        {
+            "head": "Araç ve Sürücü Bilgilerini Ekleyin",
+            "desc": "“Ayarlar” alanından Kopilot Filom servisi için sürücü, grup, araç gibi bilgilerinizi ekleyin."
+        },
+        {
+            "head": "Filonuzu Takip Edin",
+            "desc": "Araçlarınızı haritadan takip edin. Anlık verilere, detaylı raporlara ve sürücülerinizin sürüş skorlarına Kopilot Filom uygulamasından kolayca ulaşın."
+        }
+    ],
+    "product": [
+        {
+            "image": "/assets/images/products/product-1",
+            "head": "Kopilot Filom BB",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+        },
+        {
+            "image": "/assets/images/products/product-2",
+            "head": "Kopilot Filom BB",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+        },
+        {
+            "image": "/assets/images/products/product-3",
+            "head": "Kopilot Filom BB",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+        },
+        {
+            "image": "/assets/images/products/product-1",
+            "head": "Kopilot Filom BB",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+        },
+        {
+            "image": "/assets/images/products/product-2",
+            "head": "Kopilot Filom BB",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+        },
+        {
+            "image": "/assets/images/products/product-3",
+            "head": "Kopilot Filom BB",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+        }
+    ]
+}

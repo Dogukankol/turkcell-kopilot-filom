@@ -1,3 +1,10 @@
+@import '@/assets/css/settings/mixins';
+@import '@/assets/css/settings/colors';
+@import '@/assets/css/settings/breakpoints';
+@import '@/assets/css/settings/icons-extend';
+
+
+
 .box {
     &__default {
         background: $white;
@@ -8,10 +15,14 @@
         @include phone {
             padding: 16px;
         }
+        
 
         img {
             margin: 0 auto;
             max-width: 322px;
+            max-height: 208px;
+            position: relative!important;
+            object-fit: contain;
 
             @include phone {
                 max-height: 184px;
@@ -75,7 +86,7 @@
                 .box__gradient {
                     &::before {
                         content: '';
-                        background: url(../images/why-copilot-hover.png) no-repeat bottom right;
+                        background: url("/assets/images/why-copilot-hover.png") no-repeat bottom right;
                         position: absolute;
                         top: -28px;
                         left: -24px;

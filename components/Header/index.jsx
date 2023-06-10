@@ -2,12 +2,12 @@ import React from 'react'
 import "./header.scss"
 import Image from 'next/image'
 import Link from 'next/link'
-import Logo from '@/components/Logo'
+import {Logo} from '@/components/'
 import fastLogin from '/assets/images/logos/fast-login-2x.png'
 
 function Header() {
     return (
-        <header className="header {% if headerClass -%} {{headerClass}} {%- endif -%}">
+        <header className="header">
             <div className="container">
                 <div className="header__logo">
                     <Logo />

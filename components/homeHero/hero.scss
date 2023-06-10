@@ -1,5 +1,8 @@
-@import '/styles/mixins';
-@import '/styles/colors';
+@import '@/assets/css/settings/mixins';
+@import '@/assets/css/settings/colors';
+@import '@/assets/css/settings/breakpoints';
+@import '@/assets/css/settings/icons-extend';
+
 
 .hero {
     background: $primary-500-navy;
@@ -36,6 +39,14 @@
             display: block;
             height: 678px;
             position: relative;
+
+            @include phone {
+                height: 358px;
+            }
+
+            img {
+                position: relative!important;;
+            }
         }
 
         @include phone {

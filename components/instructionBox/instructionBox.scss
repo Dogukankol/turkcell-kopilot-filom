@@ -1,0 +1,72 @@
+@import '@/assets/css/settings/mixins';
+@import '@/assets/css/settings/colors';
+@import '@/assets/css/settings/breakpoints';
+@import '@/assets/css/settings/icons-extend';
+
+
+.instruction__list {
+    counter-reset: item;
+    &__item {
+        padding: 24px 24px 24px 104px;
+        @include boxShadow(0 6px 24px 0 rgba(212, 212, 212, 0.5));
+        @include borderRadius(16px);
+        margin-bottom: 16px;
+        position: relative;
+        background: $white;
+
+        @include phone {
+            padding: 12px 12px 12px 70px;
+            margin-bottom: 8px;
+            min-height: 69px;
+        }
+
+        &::before  {
+            counter-increment: item;
+            content: counter(item);
+            width: 56px;
+            height: 56px;
+            background: $yellow;
+            box-shadow: 0 6px 24px 0 rgba(237, 221, 190, 0.5), 0 9px 19px 0 rgba(255, 201, 0, 0.26);
+            @include borderRadius(14px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 24px;
+            font-size: 24px;
+            font-weight: bold;
+
+            @include phone {
+                width: 45px;
+                height: 45px;
+                @include borderRadius(8px);
+                font-size: 18px;
+                left: 12px;
+            }
+        }
+
+        &:last-child {
+            margin: 0;
+        }
+
+        h3 {
+            margin-bottom: 16px;
+            font-size: 18px;
+
+            @include phone {
+                margin-bottom: 4px;
+                font-size: 16px;
+            }
+        }
+
+        p {
+            font-size: 16px;
+
+            @include phone {
+                font-size: 12px;
+            }
+        }
+    }
+}
