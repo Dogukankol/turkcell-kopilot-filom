@@ -1,0 +1,41 @@
+@font-face {font-family: "turkcell-kopilot-filom";
+  src: url('turkcell-kopilot-filom.eot?t=1686433817750'); /* IE9*/
+  src: url('turkcell-kopilot-filom.eot?t=1686433817750#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("turkcell-kopilot-filom.woff2?t=1686433817750") format("woff2"),
+  url("turkcell-kopilot-filom.woff?t=1686433817750") format("woff"),
+  url('turkcell-kopilot-filom.ttf?t=1686433817750') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('turkcell-kopilot-filom.svg?t=1686433817750#turkcell-kopilot-filom') format('svg'); /* iOS 4.1- */
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'turkcell-kopilot-filom' !important;
+  font-size: 16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before { content: "\ea01"; }
+.icon-brochure:before { content: "\ea02"; }
+.icon-cancel:before { content: "\ea03"; }
+.icon-cross-w-circle:before { content: "\ea04"; }
+.icon-device-user-manual:before { content: "\ea05"; }
+.icon-done:before { content: "\ea06"; }
+.icon-info:before { content: "\ea07"; }
+.icon-mail:before { content: "\ea08"; }
+.icon-telephone:before { content: "\ea09"; }
+.icon-user-guide:before { content: "\ea0a"; }
+.icon-video:before { content: "\ea0b"; }
+
+$icon-arrow: "\ea01";
+$icon-brochure: "\ea02";
+$icon-cancel: "\ea03";
+$icon-cross-w-circle: "\ea04";
+$icon-device-user-manual: "\ea05";
+$icon-done: "\ea06";
+$icon-info: "\ea07";
+$icon-mail: "\ea08";
+$icon-telephone: "\ea09";
+$icon-user-guide: "\ea0a";
+$icon-video: "\ea0b";
+

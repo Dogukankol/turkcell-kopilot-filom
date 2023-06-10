@@ -1,0 +1,57 @@
+@import '../settings/mixins';
+@import '../settings/colors';
+@import '../settings/breakpoints';
+@import '../settings/icons-extend';
+
+.swiper {
+    &-button {
+        &-prev, &-next {
+            width: 56px;
+            height: 56px;
+            background: $white;
+            @include borderRadius(50%);
+            @include boxShadow(0 8px 16px 0 rgba(74, 74, 74, 0.2));
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+
+            @include phone {
+                display: none;
+            }
+
+            &:before {
+                font-family: "turkcell-kopilot-filom";
+                @extend %icon-arrow;
+                font-size: 32px;
+                color: $dark-gray;
+                position: relative;
+            }
+        }
+
+        &-prev {
+            left: 24px;
+
+            &:before {
+                transform: rotate(90deg);
+            }
+        }
+
+        &-next {
+            right: 24px;
+
+            &:before {
+                transform: rotate(-90deg);
+            }
+        }
+        
+    &-disabled {
+        display: none;
+    }
+    }
+
+}
