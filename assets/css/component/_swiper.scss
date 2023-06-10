@@ -1,7 +1,7 @@
 @import '../settings/mixins';
 @import '../settings/colors';
 @import '../settings/breakpoints';
-@import '../settings/icons-extend';
+@import '../settings/icons';
 
 .swiper {
     &-button {
@@ -26,7 +26,7 @@
 
             &:before {
                 font-family: "turkcell-kopilot-filom";
-                @extend %icon-arrow;
+                content: $icon-arrow;
                 font-size: 32px;
                 color: $dark-gray;
                 position: relative;

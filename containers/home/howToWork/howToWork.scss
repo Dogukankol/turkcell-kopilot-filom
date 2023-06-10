@@ -1,11 +1,11 @@
 @import '@/assets/css/settings/mixins';
 @import '@/assets/css/settings/colors';
 @import '@/assets/css/settings/breakpoints';
-@import '@/assets/css/settings/icons-extend';
+@import '@/assets/css/settings/icons';
 
 
 .how-to-work {
-    background: url("/assets/images/how-to-work.webp") no-repeat top right, #f9fafb;
+    background: url("../../../assets/images/how-to-work.webp") no-repeat top right, #f9fafb;
     margin-top: -110px;
     padding: 190px 0 80px;
 
@@ -20,6 +20,6 @@
     @include phone {
         margin-top: -56px;
         padding: 96px 0 38px;
-        background-image: url("/assets/images/how-to-work-m.webp")
+        background-image: url("../../..//assets/images/how-to-work-m.webp")
     }
 }
