@@ -7,5 +7,6 @@ import Logo from './Logo';
 import { Tabs, TabSwitcher, TabContent} from './Tabs';
 import Box1 from './box/box1';
 import Box2 from './box/box2';
+import Footer from './Footer';
 
-export { Accordion, Button, Header, HomeHero, InstructionBox, Logo, Tabs, TabSwitcher, TabContent, Box1, Box2 };
+export { Accordion, Button, Header, HomeHero, InstructionBox, Logo, Tabs, TabSwitcher, TabContent, Box1, Box2, Footer };

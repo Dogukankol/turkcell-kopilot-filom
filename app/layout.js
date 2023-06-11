@@ -1,4 +1,4 @@
-import {Header} from '@/components'
+import {Header, Footer} from '@/components'
 import 'swiper/css';
 import '@/assets/css/_styles.scss'
 
@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   )
