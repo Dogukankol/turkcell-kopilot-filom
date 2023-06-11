@@ -1,0 +1,41 @@
+@import '/assets/css/settings/mixins';
+@import '/assets/css/settings/colors';
+@import '/assets/css/settings/breakpoints';
+@import '/assets/css/settings/icons';
+
+.why-copilot {
+    padding: 80px 0 70px;
+    color: $white;
+    background: url("../../../assets/images/why-copilot.png") no-repeat top right, $base-dark;
+
+    @include phone {
+        padding: 40px 0;
+    }
+
+    h2 {
+        margin-bottom: 34px;
+
+
+        @include phone {
+            margin-bottom: 24px;
+        }
+    }
+
+    .box__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 30px;
+        margin-bottom: 40px;
+
+        @include phone {
+            grid-template-columns: repeat(1, 1fr);
+            grid-column-gap: 0;
+            grid-row-gap: 16px;
+            margin-bottom: 24px;
+
+            .box__gradient--wrap {
+                margin: 0;
+            }
+        }
+    }
+}

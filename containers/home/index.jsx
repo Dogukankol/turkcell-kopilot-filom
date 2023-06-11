@@ -3,6 +3,9 @@ import './home.scss';
 import {HomeHero} from '@/components'
 import HowToWork from './howToWork'
 import Product from './product'
+import WhyCoPilot from './whyCoPilot'
+import HomeInfonSSS from './HomeInfonSSS'
+import Campaign from './Campaign'
 
 function Home() {
   return (
@@ -10,6 +13,9 @@ function Home() {
       <HomeHero />
       <HowToWork />
       <Product />
+      <WhyCoPilot />
+      <Campaign />
+      <HomeInfonSSS />
       <i className='icon-arrow'></i>
     </>
   )

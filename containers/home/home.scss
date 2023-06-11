@@ -1,80 +1,9 @@
-@import '@/assets/css/settings/mixins';
-@import '@/assets/css/settings/colors';
-@import '@/assets/css/settings/breakpoints';
-@import '@/assets/css/settings/icons';
+@import '/assets/css/settings/mixins';
+@import '/assets/css/settings/colors';
+@import '/assets/css/settings/breakpoints';
+@import '/assets/css/settings/icons';
 
 
-
-.how-to-work {
-    background: url("/assets/images/how-to-work.webp") no-repeat top right, #f9fafb;
-    margin-top: -110px;
-    padding: 190px 0 80px;
-
-    h2 {
-        margin-bottom: 24px;
-
-        @include phone {
-            margin-bottom: 16px;
-        }
-    }
-
-    @include phone {
-        margin-top: -56px;
-        padding: 96px 0 38px;
-        background-image: url("/assets/images/how-to-work-m.webp")
-    }
-}
-
-.product {
-    margin: 80px 0;
-    position: relative;
-
-    @include phone {
-        margin: 0 0 32px;
-        overflow: hidden;
-    }
-
-
-    .swiper {
-        position: unset;
-
-        &-button {
-
-            &-next,
-            &-prev {
-                transform: translateY(calc(-50% + 37px));
-            }
-        }
-
-        &-slide {
-            max-width: 370px;
-
-            @include phone {
-                max-width: 327px;
-            }
-        }
-    }
-
-    .box__default {
-        padding-top: 0;
-    }
-
-    .swiper {
-        overflow: visible;
-
-        @include phone {
-            width: calc(100% + 16px);
-        }
-    }
-
-    h2 {
-        margin-bottom: 32px;
-
-        @include phone {
-            margin-bottom: 36px;
-        }
-    }
-}
 
 .buttons {
     display: flex;

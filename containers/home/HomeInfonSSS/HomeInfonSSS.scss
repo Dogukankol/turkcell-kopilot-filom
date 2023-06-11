@@ -1,0 +1,138 @@
+@import '/assets/css/settings/mixins';
+@import '/assets/css/settings/colors';
+@import '/assets/css/settings/breakpoints';
+@import '/assets/css/settings/icons';
+
+.information {
+    margin: 80px 0;
+    display: flex;
+
+    @include phone {
+        margin: 32px 0;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+
+        @include phone {
+            grid-template-columns: repeat(1, 1fr);
+            grid-column-gap: 0;
+            grid-row-gap: 32px;
+        }
+    }
+
+    &__left,
+    &__right {
+        max-width: 570px;
+
+        @include phone {
+            max-width: 100%;
+        }
+
+        @media screen and (max-width: 360px) {
+            max-width: calc(100% - 20px);
+        }
+
+        h2 {
+            margin-bottom: 24px;
+
+            @include phone {
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    &__right {
+        &__sss {
+            margin-bottom: 35px;
+
+            @include phone {
+                margin-bottom: 16px;
+            }
+        }
+
+        .buttons {
+
+            @include phone {
+                margin-top: 16px;
+            }
+
+            .button {
+                width: 240px;
+            }
+        }
+    }
+
+    .box {
+        &__list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 16px;
+            grid-row-gap: 16px;
+        }
+
+        &__gradient {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            padding-top: 34px;
+
+            @include phone {
+                padding-top: 12px;
+            }
+
+            &--wrap {
+                height: 150px;
+                margin: 0 !important;
+
+                @include phone {
+                    height: 110px;
+                }
+
+                &:hover {
+                    .box__gradient {
+                        &::before {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            &--white {
+                background: $white;
+            }
+
+            h3 {
+                font-size: 18px;
+                color: $dark-gray;
+                margin: 0 !important;
+
+                @include phone {
+                    font-size: 16px;
+                }
+            }
+
+            i {
+                margin-bottom: 8px;
+
+                @include phone {
+                    margin-bottom: 4px;
+                }
+
+                &::before {
+                    font-size: 48px;
+                    color: $base-dark;
+
+                    @include phone {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
