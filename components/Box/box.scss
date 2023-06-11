@@ -1,7 +1,7 @@
-@import '@/assets/css/settings/mixins';
-@import '@/assets/css/settings/colors';
-@import '@/assets/css/settings/breakpoints';
-@import '@/assets/css/settings/icons';
+@import '/assets/css/settings/mixins';
+@import '/assets/css/settings/colors';
+@import '/assets/css/settings/breakpoints';
+@import '/assets/css/settings/icons';
 
 
 
@@ -86,7 +86,7 @@
                 .box__gradient {
                     &::before {
                         content: '';
-                        background: url("/assets/images/why-copilot-hover.png") no-repeat bottom right;
+                        background: url("../../assets/images/why-copilot-hover.png") no-repeat bottom right;
                         position: absolute;
                         top: -28px;
                         left: -24px;

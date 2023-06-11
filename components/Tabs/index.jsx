@@ -36,9 +36,12 @@ function TabSwitcher({
     );
 }
 
+
 function TabContent({ children, id }) {
     const { activeTab } = useContext(TabContext);
-    return id === activeTab ? <div className="tabs__content__item tabs__content__item--active">{children}</div> : null;
+    return (
+        <div className={`tabs__content__item ${id === activeTab ? "tabs__content__item--active" : null}`}>{children}</div>
+    );
 }
 
 export { Tabs, TabSwitcher, TabContent };
