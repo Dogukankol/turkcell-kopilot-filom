@@ -1,5 +1,4 @@
 import React from 'react'
-import './InstructionBox.scss'
 
 function InstructionBox({head, desc}) {
   return (

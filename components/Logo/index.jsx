@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import "./logo.scss"
 import logoImg from '@/assets/images/logos/logo-2x.png'
 
 function Logo() {

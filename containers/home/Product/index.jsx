@@ -1,6 +1,5 @@
 "use client"
 import React from 'react'
-import "./product.scss"
 import { Tabs, TabSwitcher, TabContent, Button, Box1 } from "@/components";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -15,15 +14,15 @@ function index() {
 
                 <Tabs>
                     <div className="tabs__head">
-                        <TabSwitcher tabId={1}>
+                        <TabSwitcher tabId={0}>
                             Takip Cihazları
                         </TabSwitcher>
-                        <TabSwitcher tabId={2}>
+                        <TabSwitcher tabId={1}>
                             Aksesuarlar
                         </TabSwitcher>
                     </div>
                     <div className="tabs__content">
-                        <TabContent id={1}>
+                        <TabContent id={0}>
                             <Swiper
                                 modules={[Navigation]}
                                 spaceBetween={30}
@@ -40,7 +39,7 @@ function index() {
                             </Swiper>
 
                         </TabContent>
-                        <TabContent id={2}>
+                        <TabContent id={1}>
                             <Swiper
                                 modules={[Navigation]}
                                 spaceBetween={30}

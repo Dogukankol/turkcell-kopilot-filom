@@ -104,18 +104,18 @@ ul {
 }
 
 .desktop-show {
-	display: block;
+	display: block!important;
 
 	@include phone {
-		display: none;
+		display: none!important;
 	}
 }
 
 .mobile-show {
-	display: none;
+	display: none!important;
 
 	@include phone {
-		display: block;
+		display: block!important;
 	}
 }
 

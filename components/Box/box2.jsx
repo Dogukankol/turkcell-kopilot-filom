@@ -1,14 +1,15 @@
 import React from 'react'
+import Link from 'next/link'
 
-function Box2({extClass="box__gradient", classWrap="box__gradient", icon, head, desc, element="div ", attr}) {
+function Box2({href="#", className="box__gradient", classWrap="box__gradient", icon, head, desc, element="div ", attr}) {
   return (
-    <div { ...attr ? attr : ""} className={`${classWrap}--wrap`}>
-        <div className={`${extClass}`}>
+    <Link href={href} { ...attr ? attr : ""} className={`${classWrap}--wrap`}>
+        <div className={`${className}`}>
             {icon ? <i className={icon}></i> : ""}
             {head ? <h3>{head}</h3> : ""}
             {desc ? <p>{desc}</p> : ""}
         </div>
-    </div>
+    </Link>
   )
 }
 

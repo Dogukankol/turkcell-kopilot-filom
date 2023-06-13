@@ -1,14 +1,14 @@
 "use client"
-import React from 'react'
-import { Button, Box1 } from '@/components'
+import React from 'react';
+import { Button, Box1 } from '@/components';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-import { CAMPAIGN } from './data'
+import { CAMPAIGN } from './data';
 
 function index() {
     return (
-        <section class="campaign">
-            <div class="container">
+        <section className="campaign">
+            <div className="container">
                 <h2>Size Özel Fırsatlarımız</h2>
                 <Swiper
                     modules={[Navigation]}
@@ -24,7 +24,7 @@ function index() {
                         ))
                     }
                 </Swiper>
-                <div class="buttons">
+                <div className="buttons">
                     <Button text="Hemen Başvur" secondary={true} />
                 </div>
             </div>

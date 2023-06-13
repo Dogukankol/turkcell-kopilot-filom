@@ -6,6 +6,7 @@ import Product from './product'
 import WhyCoPilot from './whyCoPilot'
 import HomeInfonSSS from './HomeInfonSSS'
 import Campaign from './Campaign'
+import WhatCanYouDo from './WhatCanYouDo';
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <HowToWork />
       <Product />
       <WhyCoPilot />
+      <WhatCanYouDo />
       <Campaign />
       <HomeInfonSSS />
       <i className='icon-arrow'></i>

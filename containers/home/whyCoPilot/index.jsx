@@ -1,7 +1,6 @@
 import React from 'react'
 import {WHYCOPILOT} from './data'
 import {Box2, Button} from '@/components'
-import "./whyCoPilot.scss"
 
 function index() {
     return (

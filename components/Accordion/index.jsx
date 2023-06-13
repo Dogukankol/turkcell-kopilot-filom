@@ -1,8 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react'
-import "./accordion.scss"
 
-function index({title, desc}) {
+function Accordion({title, desc}) {
     const [accordionOpener, setAccordionOpener] = useState(false)
 
     function handleClick(e) {
@@ -23,4 +22,4 @@ function index({title, desc}) {
     )
 }
 
-export default index
+export default Accordion

@@ -1,0 +1,50 @@
+.campaign {
+    margin: 142px 0 80px;
+    overflow: hidden;
+    position: relative;
+
+    @include phone {
+        margin: 32px 0;
+    }
+
+    .swiper {
+        position: unset;
+    }
+
+    .swiper-slide {
+        max-width: 370px;
+
+        @include phone {
+            max-width: 327px;
+        }
+    }
+
+    .swiper {
+        overflow: visible;
+
+        @include phone {
+            width: calc(100% + 16px);
+        }
+    }
+
+    h2 {
+        margin-bottom: 32px;
+
+        @include phone {
+            margin-bottom: 16px;
+        }
+    }
+
+    .box__default {
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        h3 {
+            margin: 16px 0;
+            font-size: 16px;
+        }
+    }
+}

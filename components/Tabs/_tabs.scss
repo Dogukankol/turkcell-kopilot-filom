@@ -1,8 +1,3 @@
-@import '/assets/css/settings/mixins';
-@import '/assets/css/settings/colors';
-@import '/assets/css/settings/breakpoints';
-@import '/assets/css/settings/icons';
-
 .tabs {
     $self: &;
     margin-bottom: 32px;
@@ -84,7 +79,8 @@
                     margin: 0;
                     position: relative;
                     z-index: 2;
-                    transition: all .4s ease-in-out;
+                    transition: all .6s ease-in-out;
+                    background: transparent;
 
                     @include phone {
                         width: 100%;
@@ -111,29 +107,29 @@
                         background: transparent;
                     }
                 }
-
-                &__glider {
-                    background: $base-dark;
-                    line-height: 48px;
-                    position: absolute;
-                    width: 156px;
-                    height: 48px;
-                    left: 8px;
-                    top: 8px;
-                    display: block;
-                    z-index: 1;
-                    @include borderRadius(24px);
-                    transition: all .2s ease-in-out;
-
-                    @include phone {
-                        width: calc(100% - 32px);
-                        @include borderRadius(8px);
-                        height: 51px;
-                        top: 16px;
-                        left: 16px;
-                    }
-                }
             }
         }
     }
 }   
+
+#tabs__head__glider {
+    background: $base-dark;
+    line-height: 48px;
+    position: absolute;
+    width: 156px;
+    height: 48px;
+    left: 8px;
+    top: 8px;
+    display: block;
+    z-index: 1;
+    @include borderRadius(24px);
+    transition: all .2s ease-in-out;
+
+    @include phone {
+        width: calc(100% - 32px);
+        @include borderRadius(8px);
+        height: 51px;
+        top: 16px;
+        left: 16px;
+    }
+}

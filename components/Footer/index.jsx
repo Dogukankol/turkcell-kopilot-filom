@@ -1,6 +1,5 @@
 import React from 'react'
 import { Logo } from '@/components'
-import "./footer.scss"
 
 function index() {
     return (

@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Button from '../Button'
-import "./hero.scss"
 import imageDesktop from '@/assets/images/city-2x.webp'
 import imageMobile from '@/assets/images/city-m-2x.webp'
 

@@ -1,16 +1,11 @@
-@import '/assets/css/settings/mixins';
-@import '/assets/css/settings/colors';
-@import '/assets/css/settings/breakpoints';
-@import '/assets/css/settings/icons';
-
-
-
 .box {
     &__default {
         background: $white;
         padding: 24px;
         @include borderRadius(16px);
         @include boxShadow(0 6px 24px 0 rgba(212, 212, 212, 0.5));
+        display: block;
+        color: inherit;
 
         @include phone {
             padding: 16px;

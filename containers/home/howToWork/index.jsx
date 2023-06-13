@@ -2,8 +2,6 @@ import React from 'react'
 import {HOWTOWORKLIST} from './data'
 import {InstructionBox} from '@/components'
 
-import "./howToWork.scss"
-
 function howToWorkList() {
     return (
         <section className="how-to-work">
