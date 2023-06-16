@@ -8,5 +8,6 @@ import { Tabs, TabSwitcher, TabContent} from './Tabs';
 import Box1 from './box/box1';
 import Box2 from './box/box2';
 import Footer from './Footer';
+import Swiper from './Swiper'
 
-export { Accordion, Button, Header, HomeHero, InstructionBox, Logo, Tabs, TabSwitcher, TabContent, Box1, Box2, Footer };
+export { Accordion, Button, Header, HomeHero, InstructionBox, Logo, Tabs, TabSwitcher, TabContent, Box1, Box2, Footer, Swiper };

@@ -6,6 +6,7 @@
         @include boxShadow(0 6px 24px 0 rgba(212, 212, 212, 0.5));
         display: block;
         color: inherit;
+        height: 350px;
 
         @include phone {
             padding: 16px;

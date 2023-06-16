@@ -2,7 +2,7 @@
 import React from 'react';
 import { Button, Box1 } from '@/components';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation } from 'swiper';
 import { CAMPAIGN } from './data';
 
 function index() {

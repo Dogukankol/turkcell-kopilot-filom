@@ -31,7 +31,6 @@ function TabSwitcher({
             const glider = document.getElementById("tabs__head__glider");
             const activeEl = document.getElementsByClassName("tabs__head__item--active");
             const activeElPos = activeEl[1].offsetLeft
-            console.log(activeEl[1].offsetLeft)
 
             glider.style.left = `${activeElPos}px`
         }, 100)

@@ -1,12 +1,16 @@
-"use client"
-import React from 'react'
-import { Tabs, TabSwitcher, TabContent, Button, Box1 } from "@/components";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import React from 'react';
+
+import { Tabs, TabSwitcher, TabContent, Button } from "@/components";
 import { PRODUCT } from './data'
+import Slider from './slider'
+
+import {store} from '@/stores'
+import { getProducts } from "@/stores/products/productSlice";
+
+export default async function Product() {
+    const { payload: products } = await store.dispatch(getProducts());
 
 
-function index() {
     return (
         <section className="product">
             <div className="container">
@@ -23,37 +27,9 @@ function index() {
                     </div>
                     <div className="tabs__content">
                         <TabContent id={0}>
-                            <Swiper
-                                modules={[Navigation]}
-                                spaceBetween={30}
-                                slidesPerView={3}
-                                navigation
-                            >
-                                {
-                                    PRODUCT.map((item, index) => (
-                                        <SwiperSlide key={index}>
-                                            <Box1 {...item} />
-                                        </SwiperSlide>
-                                    ))
-                                }
-                            </Swiper>
-
+                            <Slider object={products.products} />
                         </TabContent>
                         <TabContent id={1}>
-                            <Swiper
-                                modules={[Navigation]}
-                                spaceBetween={30}
-                                slidesPerView={3}
-                                navigation
-                            >
-                                {
-                                    PRODUCT.map((item, index) => (
-                                        <SwiperSlide key={index}>
-                                            <Box1 {...item} />
-                                        </SwiperSlide>
-                                    ))
-                                }
-                            </Swiper>
                         </TabContent>
                     </div>
                 </Tabs>
@@ -65,5 +41,3 @@ function index() {
         </section>
     )
 }
-
-export default index
