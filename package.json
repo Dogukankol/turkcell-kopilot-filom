@@ -10,27 +10,36 @@
     "font": "svgtofont --sources ./assets/svg --output ./assets/fonts"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.4.0",
+    "dotenv": "^16.1.4",
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.4",
     "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-input-mask": "^2.0.4",
+    "react-redux": "^7.2.2",
     "react-select": "^5.7.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
     "sass": "^1.63.2",
     "select2": "^4.1.0-rc.0",
     "svgtofont": "^3.25.4",
     "swiper": "^9.3.2"
   },
   "svgtofont": {
-    "fontName" : "turkcell-kopilot-filom",
+    "fontName": "turkcell-kopilot-filom",
     "outSVGReact": false,
     "classNamePrefix": "icon",
     "css": {
-      "include" : "\\.(scss)$",
+      "include": "\\.(scss)$",
       "output": "/assets/css/settings",
       "csspath": "/assets/fonts",
       "fileName": "_icons"
     }
+  },
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.9"
   }
 }
