@@ -138,3 +138,23 @@ footer {
     }
   }
 }
+
+.detail {
+	padding-top: 208px;
+
+	@include phone {
+		padding-top: 120px;
+	}
+
+
+	&-product {
+		h1 {
+			margin: 16px 0;
+		}
+		figure {
+			img {
+				position: relative!important;
+			}
+		}
+	}
+}

@@ -1,13 +1,15 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-import blogReducer from "./blogs/blogSlice";
 import productsReducer from "./products/productSlice";
+import headerReducer from "./header/headerSlice";
+import modalReducer from "./modal/modalSlice";
 
 export function createStore(preloadedState = {}) {
   const store = configureStore({
     reducer: {
-      blogs: blogReducer,
       products: productsReducer,
+      header: headerReducer,
+      modal: modalReducer
     },
     preloadedState,
   });
