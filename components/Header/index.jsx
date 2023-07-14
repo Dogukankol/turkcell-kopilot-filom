@@ -1,15 +1,24 @@
-import React from 'react'
+"use client"
+import React, {useEffect} from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {Logo} from '@/components/'
 import fastLogin from '/assets/images/logos/fast-login-2x.png'
 
+import { useSelector, useDispatch } from 'react-redux'
+import { headerTheme } from '@/stores/header/headerSlice'
+
+
 function Header() {
+    const isDark = useSelector(headerTheme);
+
     return (
-        <header className="header">
+        <header className={`header ${isDark ? "header--dark" : ""}`}>
             <div className="container">
                 <div className="header__logo">
-                    <Logo />
+                    <Link href="/" target="_self">
+                        <Logo />                        
+                    </Link>
                 </div>
                 <div className="header__language">
                     {/* {{
