@@ -13,7 +13,7 @@ function Slider({object}) {
             navigation
         >
             {
-                object.slice(0,14).map((item, index) => (
+                object.map((item, index) => (
                     <SwiperSlide key={index}>
                         <Box1 {...item} />
                     </SwiperSlide>

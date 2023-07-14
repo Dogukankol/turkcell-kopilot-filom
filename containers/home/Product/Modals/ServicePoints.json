@@ -1,0 +1,2044 @@
+{
+  "cities": [
+    {
+      "city": "ADANA",
+      "districts": [
+        {
+          "district": "SEYHAN",
+          "services": [
+            {
+              "name": "DOĞUŞ OTO",
+              "person": "5413301001/5468621717",
+              "address": "DÖŞEME MAH. TURHAN CEMAL BEKİRER BULV. NO:69 SEYHAN/ADANA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "ADIYAMAN",
+      "districts": [
+        {
+          "district": "ADIYAMAN MERKEZ",
+          "services": [
+            {
+              "name": "YAMANLAR OTO ELEKTRİK",
+              "person": "5327956285/5443145009",
+              "address": "KÜÇÜK SANAYİ SİTESİ 3 BLOK NO:1 MERKEZ/ADIYAMAN"
+            }
+          ]
+        },
+        {
+          "district": "GÖLBAŞI",
+          "services": [
+            {
+              "name": "MUHİTTİN OTO ELEKTRİK",
+              "person": "5354378396",
+              "address": "ATATÜRK BULVARI KARAYOLLARI KARŞISI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "AFYONKARAHİSAR",
+      "districts": [
+        {
+          "district": "AFYONKARAHİSAR MERKEZ",
+          "services": [
+            {
+              "name": "SALİM OTO",
+              "person": "5443373330",
+              "address": "GÜVEN EVLER MH. 605.SOK. NO:14/A AFYON/MERKEZ"
+            }
+          ]
+        },
+        {
+          "district": "BOLVADİN",
+          "services": [
+            {
+              "name": "YILDIRIM OTO ELEKTRİK",
+              "person": "5531203488",
+              "address": "YENİ SAN.SİT.6.BLOK NO:7 BOLVADİN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "AĞRI",
+      "districts": [
+        {
+          "district": "DOĞUBAYAZIT",
+          "services": [
+            {
+              "name": "SEHER OTO ELEKTRİK",
+              "person": "5360335399",
+              "address": "SANAYİ SİTESİ D/A BLOK NO:28 DOĞUBEYAZIT AĞRI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "AKSARAY",
+      "districts": [
+        {
+          "district": "AKSARAY MERKEZ",
+          "services": [
+            {
+              "name": "BURAK OTO ELEKTRİK",
+              "person": "5427427287",
+              "address": "YENİ SAN SİT.2025 SOK. NO:28/C MERKEZ -AKSARAY"
+            }
+          ]
+        },
+        {
+          "district": "ESKİL",
+          "services": [
+            {
+              "name": "TOPÇUOĞLU OTO ELEKTRİK",
+              "person": "5376754966",
+              "address": "ESKİL KÜÇÜK SANAYİ SİTESİ ATMACA SK. NO:12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "AMASYA",
+      "districts": [
+        {
+          "district": "AMASYA MERKEZ",
+          "services": [
+            {
+              "name": "AKINOĞLU OTO AKSESUAR VE ELKT.",
+              "person": "5335454803",
+              "address": "55 EVLER MH.M.VARİNLİ CAD.İMROL APT.ASKERLİK ŞUBESİ YANI NO:61/1 AMASYA"
+            }
+          ]
+        },
+        {
+          "district": "MERZİFON",
+          "services": [
+            {
+              "name": "ÇAKIR OTO ELEKTRİK",
+              "person": "5380380838",
+              "address": "100. YIL SANAYİ SİT.4.KISIM 3.BLOK NO:412/A (51) MERZİFON"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "ANKARA",
+      "districts": [
+        {
+          "district": "ETİMESGUT",
+          "services": [
+            {
+              "name": "ATLANTİS OTO ELEKTRİK",
+              "person": "5414944073",
+              "address": "BAH.EKAPI MAH. ŞAŞMAZ OTO SANAYİ SİTESİ 2569. CAD NO:2 ŞAŞMAZ ANKARA"
+            },
+            {
+              "name": "KARACA OTO ELEKTRİK",
+              "person": "5354175196",
+              "address": "OTO SANAYİ SİT. 2.CAD. 2558.SOK. NO:12 ŞAŞMAZ-ANKARA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "ANTALYA",
+      "districts": [
+        {
+          "district": "ALANYA",
+          "services": [
+            {
+              "name": "YÜKSEL OTO ELEKTRİK",
+              "person": "5323568966/5321553086",
+              "address": "ALANYA SAN.SİT. KOCAYUSUF CAD. NO:22 ALANYA/ANTALYA"
+            }
+          ]
+        },
+        {
+          "district": "KAŞ",
+          "services": [
+            {
+              "name": "CEM ELEKTRONİK",
+              "person": "5326478664",
+              "address": "ANDİFLİ ÇUKURBAĞLAR CADDESİ NO:8"
+            }
+          ]
+        },
+        {
+          "district": "KEMER",
+          "services": [
+            {
+              "name": "RAMAZAN OTO",
+              "person": "5365626693",
+              "address": "KEMER KÜÇÜK SAN. SİT. NO:74B/16 KEMER/ANTALYA"
+            }
+          ]
+        },
+        {
+          "district": "KEPEZ",
+          "services": [
+            {
+              "name": "TURGUT OTO-TURGUT KIR",
+              "person": "5325018626",
+              "address": "AKDENİZ SAN.SİT.5001 SK.NO:96/98/100 ANTALYA/MERKEZ"
+            }
+          ]
+        },
+        {
+          "district": "KUMLUCA",
+          "services": [
+            {
+              "name": "BARIS ELEKTRONİK",
+              "person": "5356682843",
+              "address": ""
+            },
+            {
+              "name": "EMRE OTO ELEKTRİK",
+              "person": "5396036364",
+              "address": "SANAYİ SİTESİ 513 SOK.NO: 21 KUMLUCA-ANTALYA"
+            }
+          ]
+        },
+        {
+          "district": "MANAVGAT",
+          "services": [
+            {
+              "name": "ASKEROĞLU OTO ELEKTRİK",
+              "person": "5324643568",
+              "address": "SANAYİ SİTESİ 7. BLOK NO:13 MANAVGAT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "ARDAHAN",
+      "districts": [
+        {
+          "district": "ARDAHAN MERKEZ",
+          "services": [
+            {
+              "name": "ADNAN OTO ELEKTRİK",
+              "person": "5379881506",
+              "address": "ATATÜRK, KÜÇÜK SANAYİ SİTESİ, 75000 ARDAHAN MERKEZ/ARDAHAN"
+            },
+            {
+              "name": "KILINÇ OTO ELEKTRİK",
+              "person": "5379881506",
+              "address": "YENİ MAH.KARS YOLU SANAYİ SİTESİ D BLOK NO:8 MERKEZ ARDAHAN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "ARTVİN",
+      "districts": [
+        {
+          "district": "ARTVİN MERKEZ",
+          "services": [
+            {
+              "name": "DUYAN OTO ELEK.",
+              "person": "5327018269",
+              "address": "ÇAYAĞZI MAH. YENİ SAN. SİT. E BLOK ARTVİN MERKEZ, ARTVİN"
+            }
+          ]
+        },
+        {
+          "district": "ŞAVŞAT",
+          "services": [
+            {
+              "name": "DURU OTO ELEKTRİK",
+              "person": "5306371130",
+              "address": "YENİKÖY, ARDAHAN YOLU ÜZERİ CD. ŞAVŞAT/ARTVİN"
+            }
+          ]
+        },
+        {
+          "district": "YUSUFELİ",
+          "services": [
+            {
+              "name": "YUSUFELİ OTO ELEKTRİK",
+              "person": "5359445678",
+              "address": "MEHMETCİK SOKAK.NO:24 YUSUFELİ ARTVİN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "AYDIN",
+      "districts": [
+        {
+          "district": "DİDİM",
+          "services": [
+            {
+              "name": "YAĞMUR OTO ELEK.",
+              "person": "5412779976",
+              "address": "FEVZİPAŞA, 1168. SK., 09270 DİDİM/AYDIN"
+            }
+          ]
+        },
+        {
+          "district": "EFELER",
+          "services": [
+            {
+              "name": "ASİL OTO ELEKTRİK",
+              "person": "5325402985/5325402985",
+              "address": "ZEYBEK MAH. 1510 SOK NO : 27 EFELER -AYDIN"
+            }
+          ]
+        },
+        {
+          "district": "SÖKE",
+          "services": [
+            {
+              "name": "KAVAK OTO ELEKTRİK",
+              "person": "5414573661",
+              "address": "SÖKE SANAYİ SİTESİ NO:22 SÖKE/AYDIN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "BALIKESİR",
+      "districts": [
+        {
+          "district": "ALTIEYLÜL",
+          "services": [
+            {
+              "name": "İŞ GÖREN OTO",
+              "person": "5359294082",
+              "address": "YENİ SAN.SİT. CUMHURİYET CADDESİ NO 75 MERKEZ-BALIKESİR"
+            }
+          ]
+        },
+        {
+          "district": "AYVALIK",
+          "services": [
+            {
+              "name": "ÖZMEN OTO ELEKTRİK",
+              "person": "5359556947",
+              "address": "AYVALIK OTO SANAYİ SİTESİ A1 BLOK NO 10 BALIKESİR-AYVALIK"
+            }
+          ]
+        },
+        {
+          "district": "BANDIRMA",
+          "services": [
+            {
+              "name": "VELİ OTO",
+              "person": "5325175142/5422160617",
+              "address": "SANAYİ SİT.1304 SOK. NO:1 BANDIRMA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "BARTIN",
+      "districts": [
+        {
+          "district": "BARTIN MERKEZ",
+          "services": [
+            {
+              "name": "SAGLAMİŞ OTO ELEKTRİK",
+              "person": "5324513598",
+              "address": "GÖLBUCAĞI MAH 126. SOK YENİ SAN SİTESİ NO:9 MERKEZ BARTIN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "BATMAN",
+      "districts": [
+        {
+          "district": "BATMAN MERKEZ",
+          "services": [
+            {
+              "name": "TOPRAK OTO ELEKTRİK",
+              "person": "5468757405",
+              "address": "ESKİ SAN. SİT. TOPTANCILAR SİT. NO:96 BATMAN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "BAYBURT",
+      "districts": [
+        {
+          "district": "BAYBURT MERKEZ",
+          "services": [
+            {
+              "name": "ÖZOĞUL OTO ELEKTRİK",
+              "person": "5308732094",
+              "address": "21 ŞUBAT YENİ SAN.SİT.F1/1 BAYBURT/MERKEZ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "BİLECİK",
+      "districts": [
+        {
+          "district": "BOZÜYÜK",
+          "services": [
+            {
+              "name": "UMUT OTO ELEKTRİK",
+              "person": "5414508916",
+              "address": "DÖRT EYLÜL MAH. YENİ SAN. SİT. 810 SOK. NO:10 BOZÖYÜK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "BİNGÖL",
+      "districts": [
+        {
+          "district": "BİNGÖL MERKEZ",
+          "services": [
+            {
+              "name": "OSMAN USTA",
+              "person": "5445647412",
+              "address": "SANAYİ SİTESİ USTALIK SOK. NO:12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "BİTLİS",
+      "districts": [
+        {
+          "district": "GÜROYMAK",
+          "services": [
+            {
+              "name": "AKDENİZ OTO ELEKTRİK",
+              "person": "5326927489",
+              "address": "FATİH, 14. SK. NO:34, 13200 TATVAN/BİTLİS"
+            }
+          ]
+        },
+        {
+          "district": "TATVAN",
+          "services": [
+            {
+              "name": "STAR OTO ELEKTRİK",
+              "person": "5302916620",
+              "address": "YENİ SANAYİ SİTESİ E/1 BLOK NO:12 TATVAN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "BOLU",
+      "districts": [
+        {
+          "district": "BOLU MERKEZ",
+          "services": [
+            {
+              "name": "BOLU OTO ELEKTRİK",
+              "person": "5320532210",
+              "address": "SANAYİ SİTESİ 1. BLOK NO:1/12, 14100 MERKEZ/BOLU"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "BURDUR",
+      "districts": [
+        {
+          "district": "BUCAK",
+          "services": [
+            {
+              "name": "BÜLBÜL OTO ELEKTRİK",
+              "person": "5077549177",
+              "address": "BURDUR/BUCAK SNAYİ SİTESİ 2. BLOK O:78"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "BURSA",
+      "districts": [
+        {
+          "district": "İNEGÖL",
+          "services": [
+            {
+              "name": "RENO KOÇARSLANLAR",
+              "person": "5550977616",
+              "address": "ERTUGRUL GAZİ MAH ALANYURT CAD NO :2"
+            }
+          ]
+        },
+        {
+          "district": "KARACABEY",
+          "services": [
+            {
+              "name": "ASARLAR OTO ELEKTRİK",
+              "person": "5353818300",
+              "address": "KARACABEY SANAYİ SİTESİ 15.ADA NO:21 KARACABEY/BURSA"
+            }
+          ]
+        },
+        {
+          "district": "NİLÜFER",
+          "services": [
+            {
+              "name": "UZUN ARAÇ TAKİP",
+              "person": "5327360833",
+              "address": "ALAADDİNBEY MAH.616.SOK NO:1-B NİLÜFER-BURSA"
+            }
+          ]
+        },
+        {
+          "district": "OSMANGAZİ",
+          "services": [
+            {
+              "name": "ADS OTO ELEKTRİK",
+              "person": "5327270664",
+              "address": "YEŞİL OVAMAH.YAN SOK.NO:5 OSMANGAZİ/BURSA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "ÇANAKKALE",
+      "districts": [
+        {
+          "district": "BİGA",
+          "services": [
+            {
+              "name": "DOĞAN OTO ELEKTRİK",
+              "person": "5424059331",
+              "address": "BİGA 1.SANAYİ SİTESİ 3. BLOK NO 19, 17200 BİGA/ÇANAKKALE"
+            }
+          ]
+        },
+        {
+          "district": "ÇANAKKALE MERKEZ",
+          "services": [
+            {
+              "name": "AUTO ERDAL ELEKTRİK",
+              "person": "5436584016",
+              "address": "KÜÇÜK SANA. SİTESİ 24 SOK."
+            }
+          ]
+        },
+        {
+          "district": "EZİNE",
+          "services": [
+            {
+              "name": "KILIÇ OTO ELEKTRİK",
+              "person": "5423216410",
+              "address": "CAMİKEBİR MH.PANAYIR YERİ NO:19 EZİNE-ÇANAKKALE"
+            }
+          ]
+        },
+        {
+          "district": "GELİBOLU",
+          "services": [
+            {
+              "name": "YILMAZ OTO ELKTİK",
+              "person": "5426538559",
+              "address": "ALAADDİN MAH.K.SAN.SİT.7.SOK NO:10 GELİBOLU ÇANAKKALE"
+            }
+          ]
+        },
+        {
+          "district": "GÖKÇEADA",
+          "services": [
+            {
+              "name": "ÇETİN OTO ELEKTRİK",
+              "person": "5426813739",
+              "address": "SANAYİ SİTESİ NO:5 GÖKÇEADA-ÇANAKKALE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "ÇANKIRI",
+      "districts": [
+        {
+          "district": "ÇANKIRI MERKEZ",
+          "services": [
+            {
+              "name": "USTA OTO ELEKTRİK",
+              "person": "5444090880/3762181486",
+              "address": "KÜÇÜK SANAYİ SİTESİ MUSTAFA KARAKUŞ MEYDANI SANAYİ CAMİ ALTI NO:14/A ÇANKIRI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "ÇORUM",
+      "districts": [
+        {
+          "district": "ÇORUM MERKEZ",
+          "services": [
+            {
+              "name": "DOĞUKAN OTO ELEK.",
+              "person": "5345951666",
+              "address": "ALTINCI ÇELİK SOK. NO:50/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "DENİZLİ",
+      "districts": [
+        {
+          "district": "MERKEZEFENDİ",
+          "services": [
+            {
+              "name": "ASLAN OTO ELEKTRİK",
+              "person": "5326663841",
+              "address": "2.SANAYİ SİTESİ 141.SOK.NO:48 DENİZLİ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "DİYARBAKIR",
+      "districts": [
+        {
+          "district": "BİSMİL",
+          "services": [
+            {
+              "name": "İHSAN OTO ELEKTRİK",
+              "person": "5373737227",
+              "address": "SANAYİ SİTESİ 5A BLOK NO:1 BİSMİL DİYARBAKIR"
+            }
+          ]
+        },
+        {
+          "district": "KAYAPINAR",
+          "services": [
+            {
+              "name": "SEHMUZ OTO ELEK.",
+              "person": "5320654862",
+              "address": "ŞANLIURFA BULVARI.PALAYTEPE MAH.ALTINCI SOK.P/2 NO:19 KAYAPINAR-DİYARBAKIR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "DÜZCE",
+      "districts": [
+        {
+          "district": "DÜZCE MERKEZ",
+          "services": [
+            {
+              "name": "YANKI ELEKTRONİK",
+              "person": "5425454685",
+              "address": "KÜLTÜR MH. ESKİ SAN. ÇARŞISI 7 SOK. NO:28 DÜZCE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "EDİRNE",
+      "districts": [
+        {
+          "district": "EDİRNE MERKEZ",
+          "services": [
+            {
+              "name": "ÖZOTO ELEKTRİK",
+              "person": "5323814192",
+              "address": "KÜÇÜK SANAYİ SİT 22 BLOK NO 6 EDİRNE MERKEZ"
+            }
+          ]
+        },
+        {
+          "district": "UZUNKÖPRÜ",
+          "services": [
+            {
+              "name": "GÜVEN OTO ELEKTRİK",
+              "person": "5468870820",
+              "address": "MESCİT MAH.KÜÇÜK SANAYİİ SİTESİ 3.BLOK NO:10 UZUNKÖPRÜ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "ELAZIĞ",
+      "districts": [
+        {
+          "district": "ELAZIĞ MERKEZ",
+          "services": [
+            {
+              "name": "GÜVEN OTO ELEKTRİK",
+              "person": "5336672140",
+              "address": "SANAYİ SİTESİ 25.SOKAK NO:25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "ERZİNCAN",
+      "districts": [
+        {
+          "district": "ERZİNCAN MERKEZ",
+          "services": [
+            {
+              "name": "FATİH OTO ELEKTRİK",
+              "person": "5394964455",
+              "address": "YENİ SANAYİ SİTESİ 4.SOK NO:21 MERKEZ-ERZİNCAN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "ERZURUM",
+      "districts": [
+        {
+          "district": "OLTU",
+          "services": [
+            {
+              "name": "FUAT OTO ELEK.",
+              "person": "5467232072",
+              "address": "YENİ SAN. SİTESİ E BLOK NO:6"
+            }
+          ]
+        },
+        {
+          "district": "YAKUTİYE",
+          "services": [
+            {
+              "name": "DİJİTAL ELEKTRONİK",
+              "person": "5363756947",
+              "address": "EVRENPAŞA MAH.İBRAHİM HAKKI CAD.YAKUTİYE KAYMAKAMLIK KARŞISI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "ESKİŞEHİR",
+      "districts": [
+        {
+          "district": "ODUNPAZARI",
+          "services": [
+            {
+              "name": "AS-AR OTO ELEKTRİK",
+              "person": "5327813134",
+              "address": "75.YIL (SULTANDERE)MAH.11256 SOK.ESNAFLAR SİTESİ Ü.BLOK NO:57 ODUNPAZARI ESKİŞEHİR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "GAZİANTEP",
+      "districts": [
+        {
+          "district": "ŞEHİTKAMİL",
+          "services": [
+            {
+              "name": "BERK OTO KLİMA",
+              "person": "5445731074",
+              "address": "KÜSGET SAN. SİT. 33 NOLU CAD. NO:26 ŞEHİTKAMİL/GAZİANTEP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "GİRESUN",
+      "districts": [
+        {
+          "district": "GİRESUN MERKEZ",
+          "services": [
+            {
+              "name": "KILINÇ OTOMOTİV",
+              "person": "5072916187",
+              "address": "SAN. SİT.3 BLOK NO:8 GİRESUN"
+            }
+          ]
+        },
+        {
+          "district": "TİREBOLU",
+          "services": [
+            {
+              "name": "ALPEREN OTO",
+              "person": "5354406082",
+              "address": "DEMİRCİ MH. ŞEHİT ÜST. MÜCAHİT KULAK CD. NO 61/A DOĞANKENT YOLU ÜZERİ TREBOLU/GİRESUN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "GÜMÜŞHANE",
+      "districts": [
+        {
+          "district": "GÜMÜŞHANE MERKEZ",
+          "services": [
+            {
+              "name": "İHSANOĞLU OTO ELEKTRİK",
+              "person": "5320638153",
+              "address": "BAĞLARBAŞI MAH.SANAYİ SİTESİ A BLOK NO:08/A GÜMÜŞHANE"
+            }
+          ]
+        },
+        {
+          "district": "ŞİRAN",
+          "services": [
+            {
+              "name": "TOSUNOĞLU OTO ELEKTRİK",
+              "person": "5372378853",
+              "address": "YENİ SANAYİ SİTESİ NO:13 ŞİRAN-GÜMÜŞHANE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "HAKKARİ",
+      "districts": [
+        {
+          "district": "YÜKSEKOVA",
+          "services": [
+            {
+              "name": "MESUT OTO",
+              "person": "5343837182",
+              "address": "ESENDERE YOLU ÜZERİ HAKKARİ/YÜKSEKOVA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "HATAY",
+      "districts": [
+        {
+          "district": "ANTAKYA",
+          "services": [
+            {
+              "name": "ENGİN OTO ELEKTRİK",
+              "person": "5366585565",
+              "address": "ODABAŞI MAHALLESİ, HATAY KÜÇÜK SANAYİ SİTESİ 4.İNİŞ 7 CADDE NO:10 HATAY/ANTAKYA"
+            }
+          ]
+        },
+        {
+          "district": "İSKENDERUN",
+          "services": [
+            {
+              "name": "SAYDAM OTO",
+              "person": "5369591522",
+              "address": "MURADİYE MAH.324 SOK.NO:21 İSKENDERUN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "IĞDIR",
+      "districts": [
+        {
+          "district": "IĞDIR MERKEZ",
+          "services": [
+            {
+              "name": "SERKAN OTO",
+              "person": "4762101257/5333822152",
+              "address": "IĞDIR SA.SİT.14 B BLOK NO:7 IĞDIR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "ISPARTA",
+      "districts": [
+        {
+          "district": "ISPARTA MERKEZ",
+          "services": [
+            {
+              "name": "4K AUTO",
+              "person": "552441/6310",
+              "address": "SANAYİ MAHALLESİ 3232.SOK NO:49 MERKEZ ISPARTA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "İSTANBUL",
+      "districts": [
+        {
+          "district": "BAĞCILAR",
+          "services": [
+            {
+              "name": "BİTEK OTOMOTİV",
+              "person": "5331203222",
+              "address": "İKİTELLİ SARAÇLAR SAN.SİT. 14.BLOK NO:10"
+            }
+          ]
+        },
+        {
+          "district": "BEYLİKDÜZÜ",
+          "services": [
+            {
+              "name": "BİTEK OTOMOTİV",
+              "person": "5331203222",
+              "address": "ADNAN KAHVECİ MAH.BEYAZIT CAD. B2 BLOK NO:7/3 BEYLİKDÜZÜ İSTANBUL"
+            }
+          ]
+        },
+        {
+          "district": "SANCAKTEPE",
+          "services": [
+            {
+              "name": "SERKAN OTO ELEKT.",
+              "person": "5078537787",
+              "address": "MECLİS MH. MANYAR SOK. NO:46 SANCAKTEPE İMES PETROL OPET"
+            }
+          ]
+        },
+        {
+          "district": "SİLİVRİ",
+          "services": [
+            {
+              "name": "ŞAFAK OTO ELEKTRİK",
+              "person": "5426115168",
+              "address": "MİMAR SİNAN MAHALLESİ KÜÇÜK SANAYİ SİTESİ AKPINAR SOKAK NO:5/E SİLİVRİ//İSTANBUL"
+            }
+          ]
+        },
+        {
+          "district": "ŞİŞLİ",
+          "services": [
+            {
+              "name": "ELEKTRO V.İ.P",
+              "person": "/5061525585/5363002825",
+              "address": "ATATÜRK OTO SANAYİ SİT.25.SOK.NO:939 MASLAK-ŞİŞLİ-İSTANBUL"
+            }
+          ]
+        },
+        {
+          "district": "ÜSKÜDAR",
+          "services": [
+            {
+              "name": "HAKAN HERDİNÇ",
+              "person": "5497862405",
+              "address": "ÜSKÜDAR KISIKLI - KÜÇÜKBAKKALKÖY ATAŞEHİR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "İZMİR",
+      "districts": [
+        {
+          "district": "BORNOVA",
+          "services": [
+            {
+              "name": "KARİS OTO ELEKTRİK",
+              "person": "5327400705",
+              "address": "KAZIMDİRİK MAH.296/1 SOK. NO:11/B BORNCİTY PLAZA BORNOVA"
+            }
+          ]
+        },
+        {
+          "district": "ÖDEMİŞ",
+          "services": [
+            {
+              "name": "CENGİZ TAKOGRAF",
+              "person": "5323352923",
+              "address": "SANAYİ CAD. NO:65 ÖDEMİŞ-İZMİR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "KAHRAMANMARAŞ",
+      "districts": [
+        {
+          "district": "DULKADİROĞLU",
+          "services": [
+            {
+              "name": "YÜKSEL OTO ELEKTRİK",
+              "person": "5444687936/5496464647/",
+              "address": "YENİ SAN. SİT. TORNACILAR CD. NO:10 K.MARAŞ/MERKEZ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "KARABÜK",
+      "districts": [
+        {
+          "district": "KARABÜK MERKEZ",
+          "services": [
+            {
+              "name": "ÇAKIR OTO ELEKTRİK",
+              "person": "5335420908",
+              "address": "KEMALOYMAN BÜYÜK SAN. SİTESİ L BLOK NO:126 KARABÜK"
+            }
+          ]
+        },
+        {
+          "district": "SAFRANBOLU",
+          "services": [
+            {
+              "name": "DİZAYN OTO ELEKTRİK",
+              "person": "5426443081",
+              "address": "SAFRANBOLU SAN.SİT.ADALAR SANAYİ KARŞISI NO:60 KARABÜK/SAFRANBOLU"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "KARAMAN",
+      "districts": [
+        {
+          "district": "ERMENEK",
+          "services": [
+            {
+              "name": "ÇAYIR OTO ELK.",
+              "person": "5467165554",
+              "address": "SEYRAN, MUZAFFER TUTAR CD D: BLOK NO 5, 70400 ERMENEK/KARAMAN"
+            }
+          ]
+        },
+        {
+          "district": "KARAMAN MERKEZ",
+          "services": [
+            {
+              "name": "MASARALI HACI OTO ELEKTRİK",
+              "person": "5434862159",
+              "address": "HAMİDİYE MAH.YENİ SAN.SİT 680 SOK.NO:3 KARAMAN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "KARS",
+      "districts": [
+        {
+          "district": "KARS MERKEZ",
+          "services": [
+            {
+              "name": "DOĞUKAN USTA",
+              "person": "5418926058",
+              "address": "ORGANİZE SANAYİ BÖLGESİ 1.BLOK NO:9 KARS-MERKEZ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "KASTAMONU",
+      "districts": [
+        {
+          "district": "İNEBOLU",
+          "services": [
+            {
+              "name": "ÖZEN OTO ELEKTRİK",
+              "person": "5422537320",
+              "address": "AŞAĞIHATIPBAĞI MAH.JANDARMA ÜZERİ SAN SİT.NO:93/F"
+            }
+          ]
+        },
+        {
+          "district": "KASTAMONU MERKEZ",
+          "services": [
+            {
+              "name": "GÜVEN KARDEŞLER OTO ELEKTRİK",
+              "person": ":05427315551/:05426653559",
+              "address": "SANAYİ. SİT 5 BLOK NO: 78"
+            }
+          ]
+        },
+        {
+          "district": "TOSYA",
+          "services": [
+            {
+              "name": "OTO ALPARSLAN            ",
+              "person": "5456930097  ",
+              "address": "YAVUZ SELİM MAH. METAL SANAYİ SİTESİ NO: 8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "KAYSERİ",
+      "districts": [
+        {
+          "district": "KOCASİNAN",
+          "services": [
+            {
+              "name": "AHİ OTO ELEKTRİK",
+              "person": "5324919546",
+              "address": "YENİ SAN. SİT. ZUHAL CAD. 16.SOK. NO:5 KAYSERİ/MERKEZ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "KIRIKKALE",
+      "districts": [
+        {
+          "district": "KIRIKKALE MERKEZ",
+          "services": [
+            {
+              "name": "MUHİTTİN PUSMAZ",
+              "person": "5324950994",
+              "address": "ERENLER MAH.ALPARSLAN SOK.YENİ SANAYİ SİTESİ NO:2/B YAHŞİHAN KIRIKKALE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "KIRKLARELİ",
+      "districts": [
+        {
+          "district": "KIRKLARELİ MERKEZ",
+          "services": [
+            {
+              "name": "ŞİMŞEK ELEKTRONİK",
+              "person": "5442123473/5377866969/2882123473",
+              "address": "DEMİRTAŞ MAH.HASİMPEKSÖZ CAD.COSTUR İŞHANI NO:13Z:28 MERKEZ-KIRKLARELİ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "KIRŞEHİR",
+      "districts": [
+        {
+          "district": "KIRŞEHİR MERKEZ",
+          "services": [
+            {
+              "name": "MURAT OTO ELEKTRİK",
+              "person": "5333410409",
+              "address": "KILIÇÖZÜ SAN.SİT.22 A BLOK NO:5 MERKEZ/KIRŞEHİR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "KOCAELİ",
+      "districts": [
+        {
+          "district": "GEBZE",
+          "services": [
+            {
+              "name": "IŞIKSAL OTO",
+              "person": "5358585608",
+              "address": "SULTAN ORHAN MAH. KÜÇÜK SAN. SİT. A9 BLOK NO:15 GEBZE/KOCAELİ"
+            }
+          ]
+        },
+        {
+          "district": "GÖLCÜK",
+          "services": [
+            {
+              "name": "DOSTEL OTO ELEK.",
+              "person": "5362653262",
+              "address": "FİKRİ ÖZBAY CADDESİ NO:48"
+            }
+          ]
+        },
+        {
+          "district": "İZMİT",
+          "services": [
+            {
+              "name": "SAVAŞ OTO ELEKTRİK",
+              "person": "5331417960",
+              "address": "SANAYİ MAH.PETROL SOK.NO:13 İZMİT-KOCAELİ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "KONYA",
+      "districts": [
+        {
+          "district": "AKŞEHİR",
+          "services": [
+            {
+              "name": "SEMBOL ELEKTRONİK",
+              "person": "5416489597",
+              "address": "MEYDAN MAH. HÜLYA SOK. NO:5/2 KONYA AKŞEHİR"
+            }
+          ]
+        },
+        {
+          "district": "BEYŞEHİR",
+          "services": [
+            {
+              "name": "HIZIR OTO ELEKTRİK",
+              "person": "5354533614",
+              "address": "BEYŞEHİR SANAYİ SİTESİ 508 SOK. NO: 39"
+            }
+          ]
+        },
+        {
+          "district": "EREĞLİ",
+          "services": [
+            {
+              "name": "DİLMAÇ OTO ELEKTRİK",
+              "person": "5362839905",
+              "address": "SELÇUKLU MAH.90 DÜKKANLAR E BLOK NO:17"
+            },
+            {
+              "name": "TORAMAN ELEKTRK",
+              "person": "5422191160",
+              "address": "HAMİDİYE MAH.ESKİ SAN.SİT KARŞISI NO:6 EREĞLİ"
+            }
+          ]
+        },
+        {
+          "district": "ILGIN",
+          "services": [
+            {
+              "name": "ABDURRAHMAN USTA",
+              "person": "5427853288",
+              "address": "SANAYİ SİTESİ 5.EK BLOK"
+            }
+          ]
+        },
+        {
+          "district": "SELÇUKLU",
+          "services": [
+            {
+              "name": "DAĞLI OTO ELEKTRİK",
+              "person": "5300984939/5070850135",
+              "address": "SELÇUKLU CD. NO:129 SELÇUKLU/KONYA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "KÜTAHYA",
+      "districts": [
+        {
+          "district": "GEDİZ",
+          "services": [
+            {
+              "name": "YAVUZ OTO ELEKTRİK",
+              "person": "5374783792/5354396017",
+              "address": "SANAYİ SİTESİ 770.SOK.NO:30 GEDİZ"
+            }
+          ]
+        },
+        {
+          "district": "KÜTAHYA MERKEZ",
+          "services": [
+            {
+              "name": "ÜNAL OTO ELEKTRİK",
+              "person": "5434350386",
+              "address": "FUATPAŞA MAHALLESİ YENİ SANAYİ SİTESİ 10.SK NO:32/B KÜTAHYA"
+            }
+          ]
+        },
+        {
+          "district": "TAVŞANLI",
+          "services": [
+            {
+              "name": "ÖZGÖK OTO ELEKTRİK",
+              "person": "5304105083",
+              "address": "ÇUKURKÖY MAH.TAVŞANLI SAN.SİT.2.CAD.NO:43 TAVŞANLI/KÜTAHYA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "MALATYA",
+      "districts": [
+        {
+          "district": "MALATYA MERKEZ",
+          "services": [
+            {
+              "name": "URMA OTO",
+              "person": "5355447311/5397811702",
+              "address": "TURGUT OZAL MAHALLESİ ANKARA CADDESİ NO :93/B MALATYA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "MANİSA",
+      "districts": [
+        {
+          "district": "SALİHLİ",
+          "services": [
+            {
+              "name": "İNCİ OTO ELEKTRİK",
+              "person": "5423475355",
+              "address": "ESKİ SAN SİT 618 SK NO 2 SALİHLİ"
+            }
+          ]
+        },
+        {
+          "district": "YUNUSEMRE",
+          "services": [
+            {
+              "name": "GEZİCİ SERVİS",
+              "person": "5464204545",
+              "address": "GEZİCİ SERVİS HAFTA SONU VE AKŞAM 18:00 DN SONRA HİZMET VEREBİLYOR"
+            },
+            {
+              "name": "MANİSA OTO ELEKTRİK",
+              "person": "5367328251",
+              "address": "75. YIL MAHALLESİ 5309.SK. NO:28 MANİSA MERKEZ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "MARDİN",
+      "districts": [
+        {
+          "district": "ARTUKLU",
+          "services": [
+            {
+              "name": "EROL KARDEŞLER OTO",
+              "person": "5436998872",
+              "address": "RAVZA CAD.KANZA EVLERİ 2.KISIM A BLOK ALTI ARTUKLU/MARDİN"
+            }
+          ]
+        },
+        {
+          "district": "KIZILTEPE",
+          "services": [
+            {
+              "name": "AKIŞ OTO ELEKTRİK",
+              "person": "5426044568",
+              "address": "MARDİN KIZILTEPE NUSAYBİN YOL ÜZERİ GALERİCİLER SİTESİ KARŞISI"
+            }
+          ]
+        },
+        {
+          "district": "NUSAYBİN",
+          "services": [
+            {
+              "name": "Tekin Oto Elektrik-Nusaybin Oto elek.",
+              "person": "5443592881",
+              "address": "İPEKYOLU ÜZERİ AYDINLAR TESİSİ NO/37, 47300 NUSAYBİN/MARDİN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "MERSİN",
+      "districts": [
+        {
+          "district": "AKDENİZ",
+          "services": [
+            {
+              "name": "KILIÇ OTO.ELEKT.MAK.SAN.TİC.LTD.ŞTİ.",
+              "person": "5439003334/3242353500",
+              "address": "SANAYİ SİTESİ A-7 BLOK NO:1 33040 MERSİN"
+            }
+          ]
+        },
+        {
+          "district": "ERDEMLİ",
+          "services": [
+            {
+              "name": "ÖZEL OTO ELEKTRİK",
+              "person": "5323579384",
+              "address": "SANAYİ SİT.3038 SOK NO:1/B MERSİN/ERDEMLİ"
+            }
+          ]
+        },
+        {
+          "district": "GÜLNAR",
+          "services": [
+            {
+              "name": "İMALAT OTO ELEKTRİK",
+              "person": "5326539644/5302478999",
+              "address": "SANAYİ SİTESİ GÜLNAR/MERSİN"
+            }
+          ]
+        },
+        {
+          "district": "MUT",
+          "services": [
+            {
+              "name": "AKDENİZ OTO ELEKTRİK",
+              "person": "5356778797",
+              "address": "PALANTEPE KÖYÜ MUT SAN. SİT. E1. BLOK MUT, MERSİN"
+            }
+          ]
+        },
+        {
+          "district": "SİLİFKE",
+          "services": [
+            {
+              "name": "SİLİFKE OTO ELEKTRİL",
+              "person": "5362684925",
+              "address": "YENİ SANAYİ SİT. 4 BLOK SİLİFKE-MERSİN"
+            }
+          ]
+        },
+        {
+          "district": "TARSUS",
+          "services": [
+            {
+              "name": "GARAJ 33(BİRİNCİ)",
+              "person": "5433430333",
+              "address": "TEKKE MAH.YENİ SAN.SİT.PARÇACILAR BLOĞU NO:33 TARSUS/MERSİN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "MUĞLA",
+      "districts": [
+        {
+          "district": "BODRUM",
+          "services": [
+            {
+              "name": "NEBİOĞLU OTO ELEKTRİK",
+              "person": "5434626212",
+              "address": "YALIKAVAK SANAYİ SİTESİ BODRUM."
+            }
+          ]
+        },
+        {
+          "district": "FETHİYE",
+          "services": [
+            {
+              "name": "KAAN OTO",
+              "person": "5324810775/5324810775",
+              "address": "SANAYİ SİT.254.SOK.NO:12 FETHİYE"
+            }
+          ]
+        },
+        {
+          "district": "KÖYCEĞİZ",
+          "services": [
+            {
+              "name": "YİĞİTLER OTO ELEKTRİK",
+              "person": "5377659670",
+              "address": "TOPARLAR KÖYÜ MERKEZ MAH.NO:14 KÖYCEĞİZ"
+            }
+          ]
+        },
+        {
+          "district": "MARMARİS",
+          "services": [
+            {
+              "name": "SEVER OTO ELEKTRİK",
+              "person": "5322718167",
+              "address": "ATA SAN.SİT. D BLOK NO:2 MARMARİS"
+            }
+          ]
+        },
+        {
+          "district": "MENTEŞE",
+          "services": [
+            {
+              "name": "HEDEF OTO ELEKTRİK",
+              "person": "5302462385",
+              "address": "ORHANİYE MAHÇ 123 SOK. NO : 51 MENTEŞE-MERKEZ - MUĞLA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "MUŞ",
+      "districts": [
+        {
+          "district": "BULANIK",
+          "services": [
+            {
+              "name": "ŞAHİN OTO ELEKTRİK",
+              "person": "5378828588",
+              "address": "BAHÇELİEVLER MH.703.SK.NO:6/1 BULANIK MUŞ"
+            }
+          ]
+        },
+        {
+          "district": "MUŞ MERKEZ",
+          "services": [
+            {
+              "name": "KRAL OTO ELEK.",
+              "person": "5314560100",
+              "address": "MUŞ SANAYİ SİT. 2 BLOK NO : 10 MERKEZ-MUŞ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "NEVŞEHİR",
+      "districts": [
+        {
+          "district": "NEVŞEHİR MERKEZ",
+          "services": [
+            {
+              "name": "İÇAÇAN OTO ELEKTRİK",
+              "person": "5336154756",
+              "address": "LALE SAN. SİT. 4.BLOK 8-A NEVŞEHİR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "NİĞDE",
+      "districts": [
+        {
+          "district": "NİĞDE MERKEZ",
+          "services": [
+            {
+              "name": "GÖKALP OTOMOTİV",
+              "person": "5426741359/5333994371",
+              "address": "KAYSERİ YOLU ÜZERİ GALERİCİLER SİT. KRŞ. ATA SANAYİ SİTESİ 10. BLOK NİĞDE"
+            },
+            {
+              "name": "METİN OTO ELEKTRİK",
+              "person": "5337317251",
+              "address": "ATA SANAYİ SİTESİ 16.BLOK NO:70 NİĞDE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "ORDU",
+      "districts": [
+        {
+          "district": "ALTINORDU",
+          "services": [
+            {
+              "name": "GÜRPA CAR SOUND SYSTEMS",
+              "person": "5322576995",
+              "address": "ŞİRİNEVLER MAH.İ.PAŞA CAD.NO:165/A ALTINORDU -ORDU"
+            },
+            {
+              "name": "GÜVEN OTO ELEKTRİK",
+              "person": "5358525211/5330933199/4522349289",
+              "address": "2. SANAYİ SİTESİ 6.BLOK NO 16"
+            }
+          ]
+        },
+        {
+          "district": "FATSA",
+          "services": [
+            {
+              "name": "KARNAROĞLU TİCARET",
+              "person": "5325214691",
+              "address": "SAN. SİTESİ 12 BLOK NO:5"
+            }
+          ]
+        },
+        {
+          "district": "ÜNYE",
+          "services": [
+            {
+              "name": "İRFAN KOÇAKOĞLU",
+              "person": "5434048974",
+              "address": "YUNUS EMRE MAH.SANAYİ SİTESİ 1 CAD.NO:53 ÜNYE ORDU"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "OSMANİYE",
+      "districts": [
+        {
+          "district": "DÜZİÇİ",
+          "services": [
+            {
+              "name": "KALEM OTO",
+              "person": "5452074303",
+              "address": "YENİ SANAYİ SİTESİ 2. BLOK NO:3 DÜZİÇİ/OSMANİYE"
+            }
+          ]
+        },
+        {
+          "district": "OSMANİYE MERKEZ",
+          "services": [
+            {
+              "name": "SİSTEM BİLGİSAYAR",
+              "person": "5065056565",
+              "address": "RAUFBEY MAH. ATATÜRK CAD. 136/B SEFA EVLER GÜNEŞ APT. OSMANİYE MERKEZ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "RİZE",
+      "districts": [
+        {
+          "district": "ARDEŞEN",
+          "services": [
+            {
+              "name": "NİŞANCI OTO ELEKTRİK",
+              "person": "5389736406",
+              "address": "FIRTINA MAH.KAÇKAR BLV.NO:8-E/5ARDEŞEN-RİZE"
+            }
+          ]
+        },
+        {
+          "district": "RİZE MERKEZ",
+          "services": [
+            {
+              "name": "KULAKSIZ OTO ELEKTRİK",
+              "person": "5373469676",
+              "address": "İHSANPAŞA MAH.ZİNCİRLİ CAD.NO:12/B RİZE (STAT KARŞISI)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "SAKARYA",
+      "districts": [
+        {
+          "district": "ADAPAZARI",
+          "services": [
+            {
+              "name": "GÜNEŞ OTO ELEKTRİK",
+              "person": "5378459061",
+              "address": "4YOL MERKEZ SANAYİ SİTESİ 16. SOK. NO:61"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "SAMSUN",
+      "districts": [
+        {
+          "district": "CANİK",
+          "services": [
+            {
+              "name": "GENÇ OTO ELEKTRİK",
+              "person": "5353094397",
+              "address": "GÜLSAN SAN.SİT.58 SOK.NO:37 CANİK/SAMSUN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "SİİRT",
+      "districts": [
+        {
+          "district": "SİİRT MERKEZ",
+          "services": [
+            {
+              "name": "KILIÇASLAN OTO ELEKTRiK",
+              "person": "5459010141",
+              "address": "DOĞAN MAH, ARA CD. NO 29, 56100 SİİRT MERKEZ/SİİRT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "SİNOP",
+      "districts": [
+        {
+          "district": "SİNOP MERKEZ",
+          "services": [
+            {
+              "name": "DEMİRLİLER OTO ELEKTRİK",
+              "person": "5357236449",
+              "address": "KALEYAZISI MAH.İNÖNÜ CAD. NO:17 SİNOP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "SİVAS",
+      "districts": [
+        {
+          "district": "KANGAL",
+          "services": [
+            {
+              "name": "SVS OTO ELEKTRİK",
+              "person": "5435960920",
+              "address": "YENİ SİVAS CADDESİ YILDIRIM APARTMANI ALTI D:1 KANGAL-SİVAS"
+            }
+          ]
+        },
+        {
+          "district": "SİVAS MERKEZ",
+          "services": [
+            {
+              "name": "ASLAN OTO ELEKTRİK",
+              "person": "5367832510",
+              "address": ""
+            }
+          ]
+        },
+        {
+          "district": "ŞARKIŞLA",
+          "services": [
+            {
+              "name": "ÇEPERLER DEMİR ÇELİK OTO ELEKTRİK",
+              "person": "5454869879",
+              "address": "SANAYİ SİTESİ 3.SOK.ŞARKIŞLA-SİVAS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "ŞANLIURFA",
+      "districts": [
+        {
+          "district": "HALİLİYE",
+          "services": [
+            {
+              "name": "KARAALTI OTO",
+              "person": "5447123826",
+              "address": "İPEK YOLU MAH.1911 SOK.SEDAT AP.ALTI NO:3 ŞANLI URFA MERKEZ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "ŞIRNAK",
+      "districts": [
+        {
+          "district": "SİLOPİ",
+          "services": [
+            {
+              "name": "OKTAR OTO",
+              "person": "5422607282",
+              "address": ""
+            }
+          ]
+        },
+        {
+          "district": "ŞIRNAK MERKEZ",
+          "services": [
+            {
+              "name": "ESER OTO ELEKTRİK",
+              "person": "4866161627",
+              "address": "CUDİ, NUSAYBİN CD. 38/38A, 73200 CİZRE/ŞIRNA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "TEKİRDAĞ",
+      "districts": [
+        {
+          "district": "ÇERKEZKÖY",
+          "services": [
+            {
+              "name": "EYMEN OTOMOTİV",
+              "person": "5352536060",
+              "address": "FEVZİ PAŞA MAH. GÜVEN İŞ CAD NO : 95 ÇERKEZKÖY TEKİRDAĞ"
+            }
+          ]
+        },
+        {
+          "district": "ÇORLU",
+          "services": [
+            {
+              "name": "FINDIK OTO ELEKTRİK",
+              "person": "5466098485",
+              "address": "YENİ SANAYİ SİTESİ 06 SOKAK NO:7"
+            }
+          ]
+        },
+        {
+          "district": "LÜLEBURGAZ",
+          "services": [
+            {
+              "name": "YALCIN OTO ELEK.",
+              "person": "5414123963",
+              "address": ""
+            }
+          ]
+        },
+        {
+          "district": "MALKARA",
+          "services": [
+            {
+              "name": "İŞCAN OTO ELEKTRİK",
+              "person": "5423130412",
+              "address": "SANAYİ SİTESİ 6. BLOK NO:2/E MALKARA"
+            }
+          ]
+        },
+        {
+          "district": "SARAY",
+          "services": [
+            {
+              "name": "SEYHAN OTO",
+              "person": "5416116777",
+              "address": "BÜYÜKGONCALI MAH. HASAN MANDAC CAD NO:14"
+            }
+          ]
+        },
+        {
+          "district": "SÜLEYMANPAŞA",
+          "services": [
+            {
+              "name": "DARI OTO ELEKTRİK",
+              "person": "5325251762",
+              "address": "100.YIL SAN.SİT MUSTAFA AYDOĞDU BLOKLARI NO:4-5 MERKEZ/TEKİRDAĞ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "TOKAT",
+      "districts": [
+        {
+          "district": "TOKAT MERKEZ",
+          "services": [
+            {
+              "name": "ADIGÜZEL TİCARET",
+              "person": "5317883970",
+              "address": "YENİ YURT MAH. HACI İSHAK KİPMAN 1. SOK. NO:24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "TRABZON",
+      "districts": [
+        {
+          "district": "ORTAHİSAR",
+          "services": [
+            {
+              "name": "BAKOĞLU TİCARET",
+              "person": "532437/6920",
+              "address": "BÜYÜK SAN.SİT.1.BLOK NO:18 ORTAHİSAR/TRABZON"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "TUNCELİ",
+      "districts": [
+        {
+          "district": "TUNCELİ MERKEZ",
+          "services": [
+            {
+              "name": "SİNAN USTA",
+              "person": "5303241500",
+              "address": "ATATURK MAH SANAYİ SİTESİ 8. SOK NUMARA 13, 62000 TUNCELİ MERKEZ/TUNCELİ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "UŞAK",
+      "districts": [
+        {
+          "district": "UŞAK MERKEZ",
+          "services": [
+            {
+              "name": "ERDAL OTO ELETİRİK",
+              "person": "5357119724",
+              "address": "BİRLİK SANAYİ SİTESİ 4. SİTE SOKAK 8/A UŞAK/MERKEZ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "VAN",
+      "districts": [
+        {
+          "district": "İPEKYOLU",
+          "services": [
+            {
+              "name": "BY DOĞUKAN ELEKTRONİK OTOM.İNŞ.GID.SAN.TİC.AŞ.",
+              "person": "5323934781",
+              "address": "HAFİZİYE MAH.İKİNİSAN CAD.ROYAL PARK EVLERİ NO:4 MERKEZ-VAN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "YALOVA",
+      "districts": [
+        {
+          "district": "ALTINOVA",
+          "services": [
+            {
+              "name": "ÇAYLAK KARDEŞLER",
+              "person": "5437114189",
+              "address": "KAYTAZDERE SANAYİ SİTESİ 2. SOKAK"
+            }
+          ]
+        },
+        {
+          "district": "ÇİFTLİKKÖY",
+          "services": [
+            {
+              "name": "AYDIN OTOMOTİV",
+              "person": "2268253302/5327029003",
+              "address": "KİRAZLI SAN.SİT 4.BLOK C BLOK NO:34-35 YALOVA"
+            }
+          ]
+        },
+        {
+          "district": "YALOVA MERKEZ",
+          "services": [
+            {
+              "name": "BURGAZ BİLİŞİM",
+              "person": "5054888701",
+              "address": "BAHÇELİEVLER MAH.SPOR CAD NO.27D YALOVA-MERKEZ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "YOZGAT",
+      "districts": [
+        {
+          "district": "SORGUN",
+          "services": [
+            {
+              "name": "İLBAŞ AKÜ ELEKTRİK",
+              "person": "5358719869",
+              "address": "SORGUN AKÜ SAN.SİTESİ 14 BLOK NO:16"
+            }
+          ]
+        },
+        {
+          "district": "YOZGAT MERKEZ",
+          "services": [
+            {
+              "name": "CANBOLAT OTO ELEKTRİK",
+              "person": "5367804945",
+              "address": "YENİ SAN SİT.7.BLOK NO:2 6.BLOK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "ZONGULDAK",
+      "districts": [
+        {
+          "district": "ÇAYCUMA",
+          "services": [
+            {
+              "name": "MEVLÜT OTO ELEKTRİK",
+              "person": "5357990808",
+              "address": "KÜÇÜK SAN.SİT.4.BLOK DAİRE.22"
+            }
+          ]
+        },
+        {
+          "district": "DEVREK",
+          "services": [
+            {
+              "name": "TEKNO SHOP",
+              "person": "5358472815/3725563110",
+              "address": "ESKİ MH. VEYSEL ATASOY CD. NO:16 DEVREK/ZONGULDAK"
+            }
+          ]
+        },
+        {
+          "district": "EREĞLİ",
+          "services": [
+            {
+              "name": "ARSLAN OTO ELEKTRİK",
+              "person": "5456944512/3723000111",
+              "address": "BELEN SAN. SİT. F BLOK NO:33-34 EREĞLİ"
+            },
+            {
+              "name": "GÜNEŞ OTOMOTİV",
+              "person": "5326768142",
+              "address": "KIŞLA SANAYİ SİT. M BLOK NO:7 KDZ. EREĞLİ"
+            },
+            {
+              "name": "NURETTİN USTA",
+              "person": "5323255953",
+              "address": "KIŞLA SAN.SİT. 1.BLOK NO:6 EREĞLİ/ZONGULDAK"
+            }
+          ]
+        },
+        {
+          "district": "KOZLU",
+          "services": [
+            {
+              "name": "DOST 67 ELEK.",
+              "person": "5399430703",
+              "address": "GÜNEY MAH. KOZLU SAN. SİTESİ NO:112-A KOZLU-ZONGULDAK"
+            }
+          ]
+        },
+        {
+          "district": "ZONGULDAK MERKEZ",
+          "services": [
+            {
+              "name": "BARIŞ İPEK",
+              "person": "5467366167",
+              "address": "GEZİCİ"
+            },
+            {
+              "name": "HUZUR OTO ELEKTRİK  ",
+              "person": "5348206578                ",
+              "address": "SANAYİ ÇARŞISI NO:94 KOZLU/ZONGULDAK"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

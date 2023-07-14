@@ -1,8 +1,7 @@
 import React from 'react';
 
 import { Tabs, TabSwitcher, TabContent, Button } from "@/components";
-import { PRODUCT } from './data'
-import Slider from './slider'
+import Slider from './slider';
 
 import {store} from '@/stores'
 import { getProducts } from "@/stores/products/productSlice";
@@ -27,9 +26,10 @@ export default async function Product() {
                     </div>
                     <div className="tabs__content">
                         <TabContent id={0}>
-                            <Slider object={products.products} />
+                            <Slider object={products.products.slice(0,7)} />
                         </TabContent>
                         <TabContent id={1}>
+                            <Slider object={products.products.slice(7,14)} />
                         </TabContent>
                     </div>
                 </Tabs>
