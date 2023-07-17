@@ -1,0 +1,91 @@
+.select {
+    $self: &;
+
+    #{$self}__control {
+        border: 1px solid $grey-500 !important;
+        @include borderRadius(24px);
+        min-height: unset;
+        height: 48px;
+        margin-bottom: 15px;
+        padding: 11px 16px;
+        box-shadow: none !important;
+
+        &:hover {
+            border-color: $grey-500;
+        }
+    }
+
+    #{$self}__value-container {
+        padding: 0;
+        margin: 0;
+        position: unset;
+    }
+
+    #{$self}__placeholder {
+        position: absolute;
+        top: 14px;
+        left: 16px;
+        color: $grey-500;
+        font-size: 16px;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+        pointer-events: none;
+    }
+
+    #{$self}__single-value {
+        font-weight: bold;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    #{$self}__menu {
+        margin: 0!important;
+    }
+
+    #{$self}__input-container {
+        input {
+            caret-color: transparent;
+        }
+    }
+
+    #{$self}__indicator {
+        padding: 0;
+
+        &s {
+            position: absolute;
+            top: 0;
+            right: 8px;
+            transform: translateY(50%);
+        }
+
+        &::before {
+            font-family: "turkcell-kopilot-filom";
+            content: $icon-arrow;
+            font-size: 24px;
+            color: $dark-gray;
+            position: relative;
+        }
+
+        svg {
+            display: none;
+        }
+
+        &-separator {
+            display: none;
+        }
+    }
+
+    &__creatable {
+        .select__indicator::before {
+            display: none;
+        }
+
+        input {
+            caret-color: auto;
+        }
+    }
+}
+
+#react-select-2-listbox {
+    margin: 0;
+}

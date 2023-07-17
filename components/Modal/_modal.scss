@@ -6,7 +6,6 @@
     top: 0;
     left: 0;
     z-index: 9998;
-    display: flex!important;
     justify-content: center;
     align-items: center;
 
@@ -19,7 +18,7 @@
     }
 
     &__show {
-        display: block;
+        display: flex;
     }
 
     &__content {
@@ -29,6 +28,7 @@
         background: $white;
         z-index: 9;
         padding: 40px;
+        position: relative;
 
         h3 {
             font-size: 24px;
@@ -38,6 +38,16 @@
         p {
             font-size: 14px;
             margin-bottom: 23px;
+        }
+
+        .button__modal-close {
+            position: absolute;
+            top: 40px;
+            right: 40px;
+
+            i::before {
+                font-size: 32px;
+            }
         }
     }
 

@@ -1,4 +1,5 @@
 import { Header, Footer } from '@/components'
+import Modals from '@/containers/Modals'
 import 'swiper/css';
 import '@/assets/css/_styles.scss'
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
           <Header />
           <main>{children}</main>
           <Footer />
+          <Modals />
         </StoreProvider>
       </body>
     </html>

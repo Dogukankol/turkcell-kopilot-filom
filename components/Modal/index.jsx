@@ -1,17 +1,17 @@
 "use client"
 import React, {useState} from 'react'
 
-
+import { Button } from '@/components/'
 import { useSelector } from 'react-redux'
 import { modalName, isVisible } from '@/stores/modal/modalSlice'
 
-function Modals({ children, className, setIsOpen }) {
+function Modals({ children, className, open }) {
     const isVisibleC = useSelector(isVisible);
     const modalNameC = useSelector(modalName);
 
 
     return (
-        <div className={`modal ${className ? className : ""} ${setIsOpen ? "modal__show" : ""}`}>
+        <div className={`modal ${className ? className : ""} ${open ? "modal__show" : ""}`}>
             <div className='modal__mask'></div>
             <div className='modal__content'>
             {children}
@@ -22,7 +22,10 @@ function Modals({ children, className, setIsOpen }) {
 
 function ModalHeader({ children }) {
     return (
-        <div className='modal__header'>{children}</div>
+        <div className='modal__header'>
+            {children}
+            <Button className="button__simple button__modal-close" ><i className="icon-cancel"></i></Button>
+        </div>
     )
 }
 

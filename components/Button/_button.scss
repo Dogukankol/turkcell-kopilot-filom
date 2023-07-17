@@ -13,9 +13,20 @@
     display: block;
     text-align: center;
 
-    &--secondary {
+    &__secondary {
         background: $white;
         border-color:$base-dark;
         color: $base-dark;
     }
+
+    &__simple {
+        background: transparent;
+        width: auto;
+        height: auto;
+        border: none;
+        min-width: auto;
+        padding: 0;
+        line-height: 1;
+    }
+
 }

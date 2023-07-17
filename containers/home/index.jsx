@@ -7,7 +7,6 @@ import HomeInfonSSS from './HomeInfonSSS'
 import Campaign from './Campaign'
 import WhatCanYouDo from './WhatCanYouDo';
 
-import ModalServicePoint from './Product/Modals/servicePoint';
 
 function Home() {
   return (
@@ -18,8 +17,6 @@ function Home() {
       <WhyCoPilot />
       <WhatCanYouDo />
       <HomeInfonSSS />
-      
-      <ModalServicePoint />
     </>
   )
 }

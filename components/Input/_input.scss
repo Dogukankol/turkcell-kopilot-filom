@@ -1,93 +1,98 @@
 .input {
-    position: relative;
+  position: relative;
+  height: 48px;
+  margin-bottom: 16px;
+
+  input {
+    border-radius: 24px;
+    border: 1px solid $grey-500;
+    width: 100%;
     height: 48px;
-    margin-bottom: 16px;
-  
-    input {
-      border-radius: 24px;
-      border: 1px solid $grey-400;
-      width: 100%;
-      height: 48px;
-      padding: 23px 16px 8px 16px;
-      font-size: 14px;
-      color: $base-dark;
-      font-weight: bold;
-  
-      &[data-dirty='true'] ~ label {
-        font-size: 10px;
+    padding: 23px 16px 8px 16px;
+    font-size: 14px;
+    color: $base-dark;
+    font-weight: bold;
+
+    &:focus,
+    &:active {
+      border-color: $light-blue;
+    }
+
+    &:not(:placeholder-shown) {
+      ~label {
         top: 8px;
-      }
-  
-      &:focus, &:active {
-        border-color: $light-blue;
+        font-size: 10px;
       }
     }
-  
-    &:hover label {
-      color: $grey-600;
-    }
-  
-    label {
-      position: absolute;
-      top: 14px;
-      left: 16px;
-      color: $grey-500;
-      font-size: 16px;
-      font-weight: bold;
-      transition: all 0.3s ease-in-out;
-      pointer-events: none;
-    }
-  
-    input:focus ~ label,
-    input.has-value ~ label {
-      top: 8px;
-      font-size: 10px;
+
+    &::placeholder {
+      opacity: 0;
     }
   }
-  
-  input.parsley-success,
-  select.parsley-success,
-  textarea.parsley-success {
+
+  &:hover label {
+    color: $grey-600;
   }
-  
-  input.parsley-error,
-  select.parsley-error,
-  textarea.parsley-error {
-    background: $white;
-    border: 1px solid $error;
-  }
-  
-  .parsley-errors-list {
-    margin: 2px 0 3px;
-    padding: 0;
-    list-style-type: none;
-    line-height: 0.9em;
-    opacity: 0;
-    color: $error;
-  
-    transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -webkit-transition: all 0.3s ease-in;
-  
-    .parsley-custom-error-message {
-      font-size: 10px;
-      line-height: normal;
-      font-family: GreycliffCF;
-      position: absolute;
-      top: 50px;
-      left: 0;
-    }
-  }
-  
-  .parsley-errors-list {
+
+  label {
     position: absolute;
-    top: auto;
+    top: 14px;
     left: 16px;
-    bottom: -18px;
+    color: $grey-500;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    pointer-events: none;
   }
-  
-  .parsley-errors-list.filled {
-    opacity: 1;
+
+  input:focus~label,
+  input.has-value~label {
+    top: 8px;
+    font-size: 10px;
   }
-  
+}
+
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  background: $white;
+  border: 1px solid $error;
+}
+
+.parsley-errors-list {
+  margin: 2px 0 3px;
+  padding: 0;
+  list-style-type: none;
+  line-height: 0.9em;
+  opacity: 0;
+  color: $error;
+
+  transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+
+  .parsley-custom-error-message {
+    font-size: 10px;
+    line-height: normal;
+    font-family: GreycliffCF;
+    position: absolute;
+    top: 50px;
+    left: 0;
+  }
+}
+
+.parsley-errors-list {
+  position: absolute;
+  top: auto;
+  left: 16px;
+  bottom: -18px;
+}
+
+.parsley-errors-list.filled {
+  opacity: 1;
+}

@@ -12,6 +12,8 @@ import Footer from './Footer';
 import Swiper from './Swiper';
 import Input from './Input';
 import CustomSelect from './Select';
+import CustomCreatableSelect from './CreatableSelect';
+import Error from './Error';
 
 export { Accordion,
         Button,
@@ -31,5 +33,7 @@ export { Accordion,
         ModalBody,
         ModalFooter,
         Input,
-        CustomSelect
+        CustomSelect,
+        CustomCreatableSelect,
+        Error
 };
