@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Tabs, TabSwitcher, TabContent, Button } from "@/components";
+import { Tabs, TabSwitcher, TabContent, Button, ModalButton } from "@/components";
 import Slider from './slider';
 
 import {store} from '@/stores'
@@ -8,7 +8,6 @@ import { getProducts } from "@/stores/products/productSlice";
 
 export default async function Product() {
     const { payload: products } = await store.dispatch(getProducts());
-
 
     return (
         <section className="product">
@@ -35,7 +34,9 @@ export default async function Product() {
                 </Tabs>
                 <div className="buttons buttons-m--reverse">
                     <Button text="Detaylı İncele" secondary="true" />
-                    <Button text="Servis Noktalarını Gör" />
+                    <ModalButton text="Servis Noktalarını Gör" modalName="service-point-1" />
+                    <ModalButton text="Servis Noktalarını Gör" modalName="service-point-2" />
+                    <ModalButton text="Servis Noktalarını Gör" modalName="service-point-3" />
                 </div>
             </div>
         </section>

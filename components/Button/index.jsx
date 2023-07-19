@@ -1,5 +1,7 @@
+"use client"
 import React from 'react'
 import Link from 'next/link'
+
 
 function Button({ text, className, href, disabled, secondary, tertiary, icon, type="button", children, ...props }) {
     return (

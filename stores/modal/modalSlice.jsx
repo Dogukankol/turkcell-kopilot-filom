@@ -1,8 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-    isVisible: false,
-    modalName: "",
+    modalStatusState: null
 }
 
 export const modalSlice = createSlice({
@@ -10,15 +9,13 @@ export const modalSlice = createSlice({
     initialState,
     reducers: {
         setModalVisible: (state, action) => {
-            state.modalName = action.payload.modalName;
-            state.isVisible = action.payload.isVisible;
+            state.modalStatusState = action.payload
         }
     },
 })
 
 
 export const { setModalVisible } = modalSlice.actions
-export const isVisible = (state) => state.modal.isVisible
-export const modalName = (state) => state.modal.modalName
+export const modalStatusState = (state) => state.modal.modalStatusState
 
 export default modalSlice.reducer

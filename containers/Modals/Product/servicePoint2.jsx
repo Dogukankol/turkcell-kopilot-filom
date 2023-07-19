@@ -15,7 +15,6 @@ const servicePoint = ({ visible }) =>{
 
     const inputRef = useRef(null);
 
-
     const { register, reset, handleSubmit, watch, formState: { errors } } = useForm();
     
     useEffect(() => {
@@ -39,7 +38,7 @@ const servicePoint = ({ visible }) =>{
         <>
         <Modals visible={visible}>
             <ModalHeader>
-                <h3>Servis Noktaları</h3>
+                <h3>Servis Noktaları 3</h3>
                 <p>Turkcell Kopilot Filom ürünleri için servis hizmet noktalarını aşağıdan görüntüleyebilirsiniz.</p>
             </ModalHeader>
             <ModalBody>

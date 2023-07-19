@@ -12,8 +12,8 @@ const createOption = (label) => ({
   value: label,
 });
 
-function CustomCreatableSelect({ ...props }) {
-  const [inputValue, setInputValue] = React.useState('');
+function CustomCreatableSelect({ parentCallBack, ...props }) {
+  const [inputValue, setInputValue] = useState('');
   const [value, setValue] = useState([]);
   const [isDuplicate, setIsDuplicate] = useState(false);
 
@@ -24,14 +24,13 @@ function CustomCreatableSelect({ ...props }) {
       case 'Tab':
         var valueArr = value.map((item) => { return item.label});
         if(valueArr.includes(inputValue)) {
-          setValue(value);
           setIsDuplicate(true)
-          setInputValue('');
           event.preventDefault();
         } else {
           setValue((prev) => [...prev, createOption(inputValue)]);
           setInputValue('');
           setIsDuplicate(false)
+          parentCallBack(value);
           event.preventDefault();
         }
     }
