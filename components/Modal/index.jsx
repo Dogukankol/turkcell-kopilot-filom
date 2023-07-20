@@ -8,7 +8,7 @@ import {setModalVisible, modalStatusState} from '@/stores/modal/modalSlice'
 
 function Modals({ children, className, visible }) {
     return (
-        <div className={`modal ${className ? className : ""} ${visible ? "modal__show" : ""}`}>
+        <div className={`modal ${className ? className : ""} ${visible == true ? "modal__show" : ""}`}>
             <div className='modal__mask'></div>
             <div className='modal__content'>
             {children}
@@ -17,16 +17,18 @@ function Modals({ children, className, visible }) {
     )
 }
 
-function ModalHeader({children }) {
+function ModalHeader({children, modalCloser = true }) {
     const dispatch = useDispatch();
-    const modalName = useSelector(modalStatusState)
+    const modalName = useSelector(modalStatusState);
     const handleModalClose = (event) => {
-        dispatch(setModalVisible({ modal: modalName.modal, visible: false }))
+        if(modalName.visible == true) {
+            dispatch(setModalVisible({ modal: modalName.modal, visible: false }))
+        }
     }
     return (
         <div className='modal__header'>
             {children}
-            <Button className="button__simple button__modal-close" onClick={handleModalClose} ><i className="icon-cancel"></i></Button>
+            {modalCloser == true && <Button className="button__simple button__modal-close" onClick={handleModalClose} ><i className="icon-cancel"></i></Button>}
         </div>
     )
 }

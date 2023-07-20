@@ -14,6 +14,8 @@ import Input from './Input';
 import CustomSelect from './Select';
 import CustomCreatableSelect from './CreatableSelect';
 import Error from './Error';
+import Infobox from './InfoBox';
+import {ResultItem, ResultItemContactBox} from './ServiceComp';
 
 export { Accordion,
         Button,
@@ -36,5 +38,8 @@ export { Accordion,
         Input,
         CustomSelect,
         CustomCreatableSelect,
-        Error
+        Error,
+        Infobox,
+        ResultItem,
+        ResultItemContactBox
 };

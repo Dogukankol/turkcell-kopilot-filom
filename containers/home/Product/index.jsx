@@ -34,9 +34,7 @@ export default async function Product() {
                 </Tabs>
                 <div className="buttons buttons-m--reverse">
                     <Button text="Detaylı İncele" secondary="true" />
-                    <ModalButton text="Servis Noktalarını Gör" modalName="service-point-1" />
-                    <ModalButton text="Servis Noktalarını Gör" modalName="service-point-2" />
-                    <ModalButton text="Servis Noktalarını Gör" modalName="service-point-3" />
+                    <ModalButton text="Servis Noktalarını Gör" modalName="service-point" />
                 </div>
             </div>
         </section>

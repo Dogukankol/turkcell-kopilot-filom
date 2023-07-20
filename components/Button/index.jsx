@@ -13,7 +13,7 @@ function Button({ text, className, href, disabled, secondary, tertiary, icon, ty
                     <span>{text} </span>{icon ? `<i className=${`${icon}`}></i>` : ""}
                 </Link>
                 :
-                <button type={type} className={`button ${secondary ? "button__secondary" : ""} ${className}`}
+                <button type={type} className={`button ${secondary ? "button__secondary" : ""} ${className ? className : ""}`}
                     {...disabled ? disabled : ""}
                     {...props}>
                     <span>{text}{children}</span> {icon ? `<i className=${`${icon}`}></i>` : ""}

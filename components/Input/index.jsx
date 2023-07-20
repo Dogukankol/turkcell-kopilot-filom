@@ -10,8 +10,8 @@ function Input({ label, register, name, required, className, type = "text", icon
                 <input type={type} placeholder={label} {...register(name, { required })} {...props} />
                 <label htmlFor={name}>{label}</label>
                 <i className="icon-alert"></i>
-                {icon && <button type="button" class={`input__icon ${buttonClass}`}>
-                    <i class={icon}></i>
+                {icon && <button type="button" className={`input__icon ${buttonClass}`}>
+                    <i className={icon}></i>
                 </button>
                 }
             </div>

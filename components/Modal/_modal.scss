@@ -23,12 +23,13 @@
 
     &__content {
         max-width: 570px;
-        max-height: 660px;
+        max-height: 90%;
         @include borderRadius(16px);
         background: $white;
         z-index: 9;
         padding: 40px;
         position: relative;
+        overflow: auto;
 
         h3 {
             font-size: 24px;
@@ -49,6 +50,71 @@
                 font-size: 32px;
             }
         }
+    }
+
+    &-service {
+        hr {
+            border: 1px solid #f3f4f6;
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+        &__criteria {
+            padding: 16px;
+            border-radius: 16px;
+            background-color: $grey-100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            div {
+                padding-right: 5px;
+                h4 {
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-top: 0;
+                    margin-bottom: 12px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+
+            .button {
+                width: 144px;
+                min-width: 144px;
+
+                @include phone {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    &__footer {
+        margin-top: 16px;
+    }
+
+    &-cong {
+
+        .modal__header {
+            text-align: center;
+
+            i {
+                &::before {
+                    font-size: 48px;
+                    color: $success;
+                }
+            }
+        }
+        h3 {
+            margin-top: 24px;
+            &+p {
+                margin: 16px 0 24px;
+            }
+        }
+
+
     }
 
 }
