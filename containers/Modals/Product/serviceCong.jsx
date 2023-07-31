@@ -11,7 +11,7 @@ function serviceCong({ visible }) {
     <>
       <Modals visible={visible} className="modal-cong">
         <ModalHeader modalCloser="false">
-        <i class="icon-done"></i>
+        <i className="icon-done"></i>
           <h3>Randevu Oluşturabilmeniz İçin Bilgilerinizi Firmaya İlettik.</h3>
           <p>Randevu tarih ve saatinizi netleştirmek için aşağıdaki iletişim numarasını lütfen arayın.</p>
         </ModalHeader>
