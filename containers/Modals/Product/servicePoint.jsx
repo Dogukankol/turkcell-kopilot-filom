@@ -105,23 +105,23 @@ const servicePoint = ({ visible, onClose, ...props }) => {
 
                         <div className='form__group'>
                             <div className='form__group--column'>
-                                <Input label="Firmanızın Adı" name="companyName" defaultValue="GoyGoy" register={register} required />
+                                <Input label="Firmanızın Adı" name="companyName" register={register} required />
                                 {errors.companyName && <Error text="Bu alan zorunludur." />}
 
                             </div>
                             <div className='form__group--column'>
-                                <Input label="Ad Soyad" name="fullname" defaultValue="Doğukan Kol" register={register} required />
+                                <Input label="Ad Soyad" name="fullname" register={register} required />
                                 {errors.fullname && <Error text="Bu alan zorunludur." />}
                             </div>
                         </div>
 
                         <div className='form__group'>
                             <div className='form__group--column'>
-                                <Input label="Telefon Numarası" type="tel" name="telephone" defaultValue="05370462962" register={register} required />
+                                <Input label="Telefon Numarası" type="tel" name="telephone" register={register} required />
                                 {errors.telephone && <Error text="Bu alan zorunludur." />}
                             </div>
                             <div className='form__group--column'>
-                                <Input label="E-Posta" type="email" name="email" defaultValue="dogukankol@gmail.com" register={register} required />
+                                <Input label="E-Posta" type="email" name="email" register={register} required />
                                 {errors.email && <Error text="Bu alan zorunludur." />}
                             </div>
                         </div>
