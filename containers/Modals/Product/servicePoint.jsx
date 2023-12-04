@@ -20,7 +20,6 @@ const servicePoint = ({ visible, onClose, ...props }) => {
     const [cities, setCities] = useState(servicePointsJson.cities);
     const [towns, setTowns] = useState("");
 
-    const inputRef = useRef(null);
     const dispatch = useDispatch();
 
 
@@ -35,6 +34,7 @@ const servicePoint = ({ visible, onClose, ...props }) => {
     }
 
     const onSubmit = (data) => {
+        console.log(data)
         dispatch(setFormData({ ...data, plateCarsValue }));
         dispatch(setModalVisible({ modal: "service-point", visible: false }))
         setTimeout(() => {
@@ -49,11 +49,11 @@ const servicePoint = ({ visible, onClose, ...props }) => {
             <Modals visible={visible}
                 {...props}>
                 <ModalHeader>
-                    <h3>Servis Noktaları</h3>
+                    <h3>Servis Noktaları AA</h3>
                     <p>Turkcell Kopilot Filom ürünleri için servis hizmet noktalarını aşağıdan görüntüleyebilirsiniz.</p>
                 </ModalHeader>
                 <ModalBody>
-                    <form className="form" onSubmit={handleSubmit(onSubmit)}>
+                    <form className="form" onSubmit={handleSubmit(onSubmit)} data-testid="form">
                         <div className="form__group">
                             <div className='form__group--column'>
                                 <Controller
@@ -72,16 +72,18 @@ const servicePoint = ({ visible, onClose, ...props }) => {
                                             }}
                                             getOptionLabel={(option) => option.city}
                                             getOptionValue={(option) => option.city}
+                                            name="city" inputId="city"
+                                            placeholder={<label htmlFor="city">Şehir Seçiniz</label>}
                                         />
                                     )}
                                 />
                                 {errors.city && <Error text="Bu alan zorunludur." />}
 
                             </div>
-                            <div className='form__group--column'>                                    
+                            <div className='form__group--column' aria-label="towns">
                                 <Controller
                                     control={control}
-                                    name="town"
+                                    name="towns"
                                     rules={{
                                         required: true,
                                     }}
@@ -92,9 +94,12 @@ const servicePoint = ({ visible, onClose, ...props }) => {
                                             onChange={val => {
                                                 onChange(val);
                                                 setTownValue(val);
+                                                console.log(val)
                                             }}
                                             getOptionLabel={(option) => option.district}
                                             getOptionValue={(option) => option.district}
+                                            name="towns" inputId="towns"
+                                            placeholder={<label htmlFor='towns'>İlçe Seçiniz</label>}
                                         />
                                     )}
                                 />
@@ -105,38 +110,38 @@ const servicePoint = ({ visible, onClose, ...props }) => {
 
                         <div className='form__group'>
                             <div className='form__group--column'>
-                                <Input label="Firmanızın Adı" name="companyName" register={register} required />
+                                <Input label="Firmanızın Adı" name="companyName" register={register} required data-testid="companyName" />
                                 {errors.companyName && <Error text="Bu alan zorunludur." />}
 
                             </div>
                             <div className='form__group--column'>
-                                <Input label="Ad Soyad" name="fullname" register={register} required />
+                                <Input label="Ad Soyad" name="fullname" register={register} required data-testid="fullname" />
                                 {errors.fullname && <Error text="Bu alan zorunludur." />}
                             </div>
                         </div>
 
                         <div className='form__group'>
                             <div className='form__group--column'>
-                                <Input label="Telefon Numarası" type="tel" name="telephone" register={register} required />
+                                <Input label="Telefon Numarası" type="tel" name="telephone" register={register} required data-testid="telephone" />
                                 {errors.telephone && <Error text="Bu alan zorunludur." />}
                             </div>
                             <div className='form__group--column'>
-                                <Input label="E-Posta" type="email" name="email" register={register} required />
+                                <Input label="E-Posta" type="email" name="email" register={register} required data-testid="email" />
                                 {errors.email && <Error text="Bu alan zorunludur." />}
                             </div>
                         </div>
 
                         <div className='form__group form__group--single'>
-                            <Input label="Araç Sayısı" name="vehicleCount" defaultValue="5" register={register} required />
+                            <Input label="Araç Sayısı" name="vehicleCount"  register={register} required data-testid="vehicleCount" />
                             {errors.vehicleCount && <Error text="Bu alan zorunludur." />}
                         </div>
 
 
                         <div className='form__group form__group--single'>
-                            <CustomCreatableSelect parentCallBack={getCreatableSelectData} />
+                            <CustomCreatableSelect parentCallBack={getCreatableSelectData} name="plates" inputId="plates" placeholder={<label htmlFor='plates'>Plakaları Giriniz</label>} data-testid="plates" />
                         </div>
 
-                        <Button type="submit" text="Sorgula" />
+                        <Button type="submit" text="Sorgula" data-testid="send" />
                     </form>
                 </ModalBody>
             </Modals></>

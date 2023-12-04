@@ -48,7 +48,6 @@ function CustomCreatableSelect({ parentCallBack, ...props }) {
       onChange={(newValue) => setValue(newValue)}
       onInputChange={(newValue) => setInputValue(newValue)}
       onKeyDown={handleKeyDown}
-      placeholder="Type something and press enter..."
       value={value}
       className="select select__creatable"
       {...props}

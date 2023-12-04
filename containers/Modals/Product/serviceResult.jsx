@@ -37,7 +37,7 @@ function serviceResult({ visible }) {
                     <div className="modal-service__criteria">
                         <div>
                             <h4>Arama Kriterleri</h4>
-                            {formData && <p>{formData.city}, {formData.town.district} - {formData.companyName} - {formData.vehicleCount} Araç</p>}
+                            {formData && <p>{formData.city}, {formData.towns.district} - {formData.companyName} - {formData.vehicleCount} Araç</p>}
                         </div>
                         <Button text="Tekrar Ara" secondary onClick={handleBackForm} />
                     </div>
@@ -48,7 +48,7 @@ function serviceResult({ visible }) {
                         <Infobox text="Randevu oluşturmak için seçtiğiniz Servis Noktası’nı lütfen arayın." icon="icon-info" />
                         <div className="box">
                             {formData &&
-                                formData.town.services.map((item, key) => (
+                                formData.towns.services.map((item, key) => (
                                     <ResultItem key={key} title={item.name} address={item.address}>
                                         <>
                                         <div className='result-item__contact'>
